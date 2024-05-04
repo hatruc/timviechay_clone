@@ -1,0 +1,939 @@
+@media (max-width: 767px) {
+    .list_news_box_2 {
+        display: flex;
+        width: 414px;
+        padding: 12px 16px 20px 16px;
+        flex-direction: column;
+        align-items: center;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+
+        gap: 32px;
+        box-sizing: border-box;
+
+        background: #FFF;
+
+        .border_box {
+            display: flex;
+            padding: 6px 12px 16px 12px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            align-self: stretch;
+            border-radius: 4px;
+            border: 1px solid rgba(39, 103, 165, 0.20);
+            box-sizing: border-box;
+
+            background: #FFF;
+
+            .title {
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-bottom: 1px solid rgba(39, 103, 165, 0.20);
+
+                >span {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 135%;
+                }
+            }
+
+            .item_cv {
+                width: 358px;
+                overflow: hidden;
+                margin-left: 0px;
+                position: relative;
+
+                .group_image_listCv {
+                    width: 210px !important;
+                    height: 266px;
+
+                    .image_listCv {
+                        width: 210px !important;
+                        height: 266px;
+                    }
+                }
+
+                .button_carousel_left {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .button_carousel_right {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0px;
+                    cursor: pointer;
+                }
+            }
+
+            .footer_cv {
+                color: #F8971C;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+
+        .downloadApp {
+            width: 382px;
+            display: flex;
+            flex-direction: column;
+            height: 147px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            align-items: center;
+
+            background: url("/images/nha-tuyen-dung/danh-sach-tin-tuyen-dung/bg_download.png");
+
+            .txt_download {
+                margin-top: 18px;
+                color: #FFF;
+
+                text-align: center;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 135%;
+            }
+
+            .groupButton {
+                margin-top: 9px;
+                display: flex;
+                gap: 10px;
+                width: 213px;
+                flex-direction: column;
+
+                .buttonTimViec {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    color: #5663FF;
+                    cursor: pointer;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+
+                    border-radius: 30px;
+                    background: #FFF;
+                }
+
+                .buttonCV {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    cursor: pointer;
+
+                    border-radius: 30px;
+                    background: #FFF;
+
+                    color: #F89C0C;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .list_news_box_2 {
+        display: flex;
+        width: 720px;
+        padding: 8px 24px 20px 24px;
+        flex-direction: column;
+        align-items: center;
+        border-bottom-left-radius: 8px;
+        margin-bottom: 20px;
+        border-bottom-right-radius: 8px;
+
+        gap: 32px;
+        box-sizing: border-box;
+
+        background: #FFF;
+
+        .border_box {
+            display: flex;
+            padding: 6px 12px 16px 12px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            align-self: stretch;
+            border-radius: 4px;
+            border: 1px solid rgba(39, 103, 165, 0.20);
+            box-sizing: border-box;
+
+            background: #FFF;
+
+            .title {
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-bottom: 1px solid rgba(39, 103, 165, 0.20);
+
+                >span {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 135%;
+                }
+            }
+
+            .item_cv {
+                width: 664px;
+                overflow: hidden;
+                margin-left: 9px;
+                position: relative;
+
+                .group_image_listCv {
+                    width: 210px !important;
+                    height: 266px;
+
+                    .image_listCv {
+                        width: 210px !important;
+                        height: 266px;
+                    }
+                }
+
+                .button_carousel_left {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .button_carousel_right {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 10px;
+                    cursor: pointer;
+                }
+            }
+
+            .footer_cv {
+                color: #F8971C;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+
+        .downloadApp {
+            width: 688px;
+            display: flex;
+            flex-direction: column;
+            height: 147px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            align-items: center;
+
+            background: url("/images/nha-tuyen-dung/danh-sach-tin-tuyen-dung/bg_download.png");
+
+            .txt_download {
+                margin-top: 30px;
+                color: #FFF;
+
+                text-align: center;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 135%;
+            }
+
+            .groupButton {
+                margin-top: 19px;
+                display: flex;
+                gap: 28px;
+                width: 454px;
+
+                .buttonTimViec {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    color: #5663FF;
+                    cursor: pointer;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+
+                    border-radius: 30px;
+                    background: #FFF;
+                }
+
+                .buttonCV {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    cursor: pointer;
+
+                    border-radius: 30px;
+                    background: #FFF;
+
+                    color: #F89C0C;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .list_news_box_2 {
+        display: flex;
+        width: 976px;
+        padding: 20px 24px;
+        flex-direction: column;
+        align-items: center;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        margin-bottom: 20px;
+
+        gap: 32px;
+        box-sizing: border-box;
+
+        background: #FFF;
+
+        .border_box {
+            display: flex;
+            padding: 6px 12px 16px 12px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            align-self: stretch;
+            border-radius: 4px;
+            border: 1px solid rgba(39, 103, 165, 0.20);
+            box-sizing: border-box;
+
+            background: #FFF;
+
+            .title {
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-bottom: 1px solid rgba(39, 103, 165, 0.20);
+
+                >span {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 135%;
+                }
+            }
+
+            .item_cv {
+                width: 904px;
+                overflow: hidden;
+                margin-left: 24px;
+                position: relative;
+
+                .group_image_listCv {
+                    width: 276px !important;
+                    height: 349px;
+
+                    .image_listCv {
+                        width: 276px !important;
+                        height: 349px;
+                    }
+                }
+
+                .button_carousel_left {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .button_carousel_right {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px;
+                    cursor: pointer;
+                }
+            }
+
+            .footer_cv {
+                color: #F8971C;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+
+        .downloadApp {
+            width: 916px;
+            display: flex;
+            flex-direction: column;
+            height: 147px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            align-items: center;
+
+            background: url("/images/nha-tuyen-dung/danh-sach-tin-tuyen-dung/bg_download.png");
+
+            .txt_download {
+                margin-top: 30px;
+                color: #FFF;
+
+                text-align: center;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 135%;
+            }
+
+            .groupButton {
+                margin-top: 19px;
+                display: flex;
+                gap: 28px;
+                width: 454px;
+
+                .buttonTimViec {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    color: #5663FF;
+                    cursor: pointer;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+
+                    border-radius: 30px;
+                    background: #FFF;
+                }
+
+                .buttonCV {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    cursor: pointer;
+
+                    border-radius: 30px;
+                    background: #FFF;
+
+                    color: #F89C0C;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .list_news_box_2 {
+        display: flex;
+        width: 314px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+
+        gap: 32px;
+        box-sizing: border-box;
+
+        background: #FFF;
+
+        .border_box {
+            display: flex;
+            padding: 6px 12px 16px 12px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            align-self: stretch;
+            border-radius: 4px;
+            border: 1px solid rgba(39, 103, 165, 0.20);
+            box-sizing: border-box;
+
+            background: #FFF;
+
+            .title {
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-bottom: 1px solid rgba(39, 103, 165, 0.20);
+
+                >span {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 135%;
+                }
+            }
+
+            .item_cv {
+                width: 314px;
+                overflow: hidden;
+                margin-left: 0px;
+                position: relative;
+
+                .group_image_listCv {
+                    width: 290px !important;
+                    height: 367px;
+
+                    .image_listCv {
+                        width: 290px !important;
+                        height: 367px;
+                    }
+                }
+
+                .button_carousel_left {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .button_carousel_right {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px;
+                    cursor: pointer;
+                }
+            }
+
+            .footer_cv {
+                color: #F8971C;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+
+        .downloadApp {
+            width: 314px;
+            display: flex;
+            flex-direction: column;
+            height: 194px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            align-items: center;
+
+            background: url("/images/nha-tuyen-dung/danh-sach-tin-tuyen-dung/bg_download.png");
+
+            .txt_download {
+                margin-top: 18px;
+                color: #FFF;
+                width: 255px;
+
+                text-align: center;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 135%;
+            }
+
+            .groupButton {
+                margin-top: 19px;
+                display: flex;
+                gap: 16px;
+                width: 213px;
+                flex-direction: column;
+
+                .buttonTimViec {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    color: #5663FF;
+                    cursor: pointer;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+
+                    border-radius: 30px;
+                    background: #FFF;
+                }
+
+                .buttonCV {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    cursor: pointer;
+
+                    border-radius: 30px;
+                    background: #FFF;
+
+                    color: #F89C0C;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .list_news_box_2 {
+        display: flex;
+        width: 314px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+
+        gap: 32px;
+        box-sizing: border-box;
+
+        background: #FFF;
+
+        .border_box {
+            display: flex;
+            padding: 6px 12px 16px 12px;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            align-self: stretch;
+            border-radius: 4px;
+            border: 1px solid rgba(39, 103, 165, 0.20);
+            box-sizing: border-box;
+
+            background: #FFF;
+
+            .title {
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-bottom: 1px solid rgba(39, 103, 165, 0.20);
+
+                >span {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 135%;
+                }
+            }
+
+            .item_cv {
+                width: 314px;
+                overflow: hidden;
+                margin-left: 0px;
+                position: relative;
+
+                .group_image_listCv {
+                    width: 290px !important;
+                    height: 367px;
+
+                    .image_listCv {
+                        width: 290px !important;
+                        height: 367px;
+                    }
+                }
+
+                .button_carousel_left {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 0px;
+                    cursor: pointer;
+                }
+
+                .button_carousel_right {
+                    outline: none;
+                    border: none;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 24px;
+                    cursor: pointer;
+                }
+            }
+
+            .footer_cv {
+                color: #F8971C;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
+        }
+
+        .downloadApp {
+            width: 314px;
+            display: flex;
+            flex-direction: column;
+            height: 194px;
+            flex-shrink: 0;
+            border-radius: 10px;
+            align-items: center;
+
+            background: url("/images/nha-tuyen-dung/danh-sach-tin-tuyen-dung/bg_download.png");
+
+            .txt_download {
+                margin-top: 18px;
+                color: #FFF;
+                width: 255px;
+
+                text-align: center;
+                font-family: Roboto;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 135%;
+            }
+
+            .groupButton {
+                margin-top: 19px;
+                display: flex;
+                gap: 16px;
+                width: 213px;
+                flex-direction: column;
+
+                .buttonTimViec {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    color: #5663FF;
+                    cursor: pointer;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+
+                    border-radius: 30px;
+                    background: #FFF;
+                }
+
+                .buttonCV {
+                    display: flex;
+                    width: 213px;
+                    height: 37px;
+                    padding: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border: none;
+                    box-sizing: border-box;
+                    cursor: pointer;
+
+                    border-radius: 30px;
+                    background: #FFF;
+
+                    color: #F89C0C;
+
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 413px) {
+    .list_news_box_2 {
+        padding: 12px 16px 20px 0px !important;
+        align-items: flex-start !important;
+        .border_box {
+            padding: 6px 12px 16px 0px !important;
+        }
+        .downloadApp {
+        }
+    }
+}

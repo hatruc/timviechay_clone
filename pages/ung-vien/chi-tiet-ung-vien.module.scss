@@ -1,0 +1,630 @@
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #F4F9FF;
+    flex-wrap: wrap;
+    position: relative;
+
+    .router {
+        width: 1200px;
+        height: 46px;
+        padding: 12px 0px;
+        align-items: center;
+        flex-shrink: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .textBlue {
+            color: #3582CD;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+            /* 157.143% */
+            letter-spacing: 0.175px;
+        }
+
+        .path {
+            display: flex;
+            width: 24.6px;
+            height: 16px;
+            padding: 0px 4px;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-shrink: 0;
+
+            >div {
+                display: flex;
+                height: 16px;
+                padding: 0px 4.25px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                align-self: stretch;
+
+                >span {
+                    display: flex;
+                    width: 7.5px;
+                    height: 20px;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    color: #212F3F;
+                    font-family: Font Awesome 5 Free;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20px;
+                    /* 133.333% */
+                }
+            }
+        }
+
+        .text {
+            color: #212F3F;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+            /* 157.143% */
+            letter-spacing: 0.14px;
+        }
+    }
+
+    .box {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 824px 352px;
+        grid-gap: 24px;
+        margin-bottom: 24px;
+
+        .divide {
+            grid-column: 2;
+            grid-row: 1/span 4;
+        }
+
+        .list_candidate {
+            margin-top: 20px;
+        }
+
+        .job_detail_box_4 {
+            position: absolute;
+            top: 60px;
+            right: 16px;
+            display: inline-flex;
+            padding: 8px 5px;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+
+            border-radius: 1000px;
+            background: #FFF;
+            box-shadow: 0px 8px 16px 0px rgba(1, 18, 34, 0.04);
+
+            .header {
+                display: none;
+            }
+
+            .facebook {
+                display: flex;
+                padding: 6.5px 11px;
+                justify-content: center;
+                align-items: center;
+
+                border-radius: 100px;
+                border: 1px solid #E9EAEC;
+                text-decoration: none;
+            }
+
+            .twitter {
+                display: flex;
+                padding: 9.5px 8px;
+                justify-content: center;
+                align-items: center;
+
+                border-radius: 100px;
+                border: 1px solid #E9EAEC;
+                text-decoration: none;
+            }
+
+            .instagram {
+                display: flex;
+                padding: 8.5px 7.5px;
+                justify-content: center;
+                align-items: center;
+
+                border-radius: 100px;
+                border: 1px solid #E9EAEC;
+                text-decoration: none;
+            }
+
+            .linked {
+                display: flex;
+                padding: 6px;
+                justify-content: center;
+                align-items: center;
+
+                border-radius: 100px;
+                border: 1px solid #E9EAEC;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #F4F9FF;
+        flex-wrap: wrap;
+        position: relative;
+
+        .router {
+            width: 1200px;
+            height: 46px;
+            padding: 12px 0px;
+            align-items: center;
+            flex-shrink: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .textBlue {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.175px;
+            }
+
+            .path {
+                display: flex;
+                width: 24.6px;
+                height: 16px;
+                padding: 0px 4px;
+                flex-direction: column;
+                align-items: flex-start;
+                flex-shrink: 0;
+
+                >div {
+                    display: flex;
+                    height: 16px;
+                    padding: 0px 4.25px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    align-self: stretch;
+
+                    >span {
+                        display: flex;
+                        width: 7.5px;
+                        height: 20px;
+                        flex-direction: column;
+                        align-items: flex-start;
+
+                        color: #212F3F;
+                        font-family: Font Awesome 5 Free;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        /* 133.333% */
+                    }
+                }
+            }
+
+            .text {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.14px;
+            }
+        }
+
+        .box {
+            .job_detail_box_4 {
+                right: 48px;
+            }
+        }
+
+        .grid-container {
+            width: 1200px;
+        }
+    }
+}
+
+@media (max-width: 1365px) {
+    .body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #F4F9FF;
+        flex-wrap: wrap;
+        position: relative;
+
+        .router {
+            width: 976px;
+            height: 46px;
+            padding: 12px 0px;
+            align-items: center;
+            flex-shrink: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .textBlue {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.175px;
+            }
+
+            .path {
+                display: flex;
+                width: 24.6px;
+                height: 16px;
+                padding: 0px 4px;
+                flex-direction: column;
+                align-items: flex-start;
+                flex-shrink: 0;
+
+                >div {
+                    display: flex;
+                    height: 16px;
+                    padding: 0px 4.25px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    align-self: stretch;
+
+                    >span {
+                        display: flex;
+                        width: 7.5px;
+                        height: 20px;
+                        flex-direction: column;
+                        align-items: flex-start;
+
+                        color: #212F3F;
+                        font-family: Font Awesome 5 Free;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        /* 133.333% */
+                    }
+                }
+            }
+
+            .text {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.14px;
+            }
+        }
+
+        .box {
+            width: 976px;
+            grid-template-columns: 640px 312px;
+
+            .job_detail_box_4 {
+                position: unset;
+                flex-direction: row;
+                display: inline-flex;
+                padding: 20px;
+                align-items: flex-start;
+                align-content: flex-start;
+                gap: 20px;
+                flex-wrap: wrap;
+                width: 100%;
+                border-radius: 8px;
+                background: #FFF;
+                box-sizing: border-box;
+
+                .header {
+                    display: flex;
+                    width: 640px;
+                    padding: 0px 0px 0px 16px;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    border-left: 6px solid #3582CD;
+
+                    >span {
+                        color: #212F3F;
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 28px;
+                    }
+                }
+
+                .facebook {
+                    display: flex;
+                    padding: 6.5px 11px;
+                    justify-content: center;
+                    align-items: center;
+
+                    border-radius: 100px;
+                    border: 1px solid #E9EAEC;
+                    text-decoration: none;
+                }
+
+                .twitter {
+                    display: flex;
+                    padding: 9.5px 8px;
+                    justify-content: center;
+                    align-items: center;
+
+                    border-radius: 100px;
+                    border: 1px solid #E9EAEC;
+                    text-decoration: none;
+                }
+
+                .instagram {
+                    display: flex;
+                    padding: 8.5px 7.5px;
+                    justify-content: center;
+                    align-items: center;
+
+                    border-radius: 100px;
+                    border: 1px solid #E9EAEC;
+                    text-decoration: none;
+                }
+
+                .linked {
+                    display: flex;
+                    padding: 6px;
+                    justify-content: center;
+                    align-items: center;
+
+                    border-radius: 100px;
+                    border: 1px solid #E9EAEC;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #F4F9FF;
+        flex-wrap: wrap;
+        position: relative;
+
+        .router {
+            width: 720px;
+            height: 46px;
+            padding: 12px 0px;
+            align-items: center;
+            flex-shrink: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+            .textBlue {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.175px;
+            }
+
+            .path {
+                display: flex;
+                width: 24.6px;
+                height: 16px;
+                padding: 0px 4px;
+                flex-direction: column;
+                align-items: flex-start;
+                flex-shrink: 0;
+
+                >div {
+                    display: flex;
+                    height: 16px;
+                    padding: 0px 4.25px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    align-self: stretch;
+
+                    >span {
+                        display: flex;
+                        width: 7.5px;
+                        height: 20px;
+                        flex-direction: column;
+                        align-items: flex-start;
+
+                        color: #212F3F;
+                        font-family: Font Awesome 5 Free;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        /* 133.333% */
+                    }
+                }
+            }
+
+            .text {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.14px;
+            }
+        }
+
+        .box {
+            width: 720px;
+            display: flex;
+            gap: 24px;
+            flex-direction: column;
+
+            .divide {
+                display: contents;
+            }
+
+            .box_1 {
+                order: 2;
+            }
+
+            .box_2 {
+                order: 1;
+            }
+
+            .box_3 {
+                order: 3;
+            }
+
+            .box_4 {
+                order: 4;
+            }
+
+            .box_5 {
+                order: 5;
+            }
+
+            .box_6 {
+                order: 6;
+            }
+
+            .box_7 {
+                order: 7;
+            }
+
+            .box_8 {
+                order: 8;
+            }
+
+            .job_detail_box_4 {
+                width: 720px;
+                box-sizing: border-box;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .body {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #F4F9FF;
+        flex-wrap: wrap;
+        position: relative;
+
+        .router {
+            display: flex;
+            width: 100%;
+            padding: 12px 12px;
+            align-items: center;
+            flex-shrink: 0;
+            flex-wrap: wrap;
+            align-items: center;
+            box-sizing: border-box;
+
+            .textBlue {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.175px;
+            }
+
+            .path {
+                display: flex;
+                width: 24.6px;
+                height: 16px;
+                padding: 0px 4px;
+                flex-direction: column;
+                align-items: flex-start;
+                flex-shrink: 0;
+
+                >div {
+                    display: flex;
+                    height: 16px;
+                    padding: 0px 4.25px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    align-self: stretch;
+
+                    >span {
+                        display: flex;
+                        width: 7.5px;
+                        height: 20px;
+                        flex-direction: column;
+                        align-items: flex-start;
+
+                        color: #212F3F;
+                        font-family: Font Awesome 5 Free;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 20px;
+                        /* 133.333% */
+                    }
+                }
+
+
+            }
+
+            .text {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                /* 157.143% */
+                letter-spacing: 0.14px;
+            }
+        }
+
+        .box {
+            margin-top: 20px;
+            width: 382px;
+
+            .job_detail_box_4 {
+                width: 100%;
+            }
+        }
+    }
+}

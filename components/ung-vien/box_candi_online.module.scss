@@ -1,0 +1,137 @@
+ .candidate_online {
+     display: flex;
+     padding: 6px 12px 16px 12px;
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+     align-self: stretch;
+     border-radius: 4px;
+     background: #FFF;
+     width: 312px;
+     //  margin-top: 24px;
+
+     .online_title {
+         display: flex;
+         padding: 10px;
+         justify-content: center;
+         align-items: center;
+         gap: 10px;
+         align-self: stretch;
+         border-bottom: 1px solid rgba(39, 103, 165, 0.20);
+
+         p {
+             color: #3582CD;
+             font-family: Roboto;
+             font-size: 16px;
+             font-style: normal;
+             font-weight: 600;
+             line-height: 135%;
+             /* 21.6px */
+         }
+     }
+
+     .info_online {
+         display: flex;
+         padding-bottom: 12px;
+         align-items: flex-start;
+         gap: 8px;
+         align-self: stretch;
+         border-radius: 4px;
+         border-bottom: 1px dashed #D1D1D1;
+         background: #FFF;
+         position: relative;
+
+         .box_avatar_onl {
+             border: 3px solid #3582CD;
+             width: 50px;
+             height: 50px;
+             border-radius: 50%;
+
+             .avatar_onl {
+                 border-radius: 50%;
+             }
+         }
+
+         .icon_onl {
+             fill: #5DC22D;
+             strokeWidth: 1px;
+             stroke: #FFF;
+             width: 13px;
+             height: 100px;
+             left: 42px;
+             position: absolute;
+         }
+
+         .info_detail {
+             display: flex;
+             flex-direction: column;
+             align-items: flex-start;
+             gap: 2px;
+             flex: 1 0 0;
+
+             .name {
+                 color: #3582CD;
+                 font-family: Roboto;
+                 font-size: 15px;
+                 font-style: normal;
+                 font-weight: 500;
+                 line-height: 20px;
+                 align-self: stretch;
+                 text-transform: uppercase;
+             }
+
+             .positon {
+                 color: #666;
+                 font-family: Roboto;
+                 font-size: 14px;
+                 font-style: normal;
+                 font-weight: 400;
+                 line-height: 20px;
+                 width: 195px;
+             }
+
+             .address {
+                 color: #666;
+                 font-family: Roboto;
+                 font-size: 14px;
+                 font-style: normal;
+                 font-weight: 400;
+                 line-height: 20px;
+                 text-transform: capitalize;
+             }
+         }
+
+         .chat {
+             display: flex;
+             width: 24px;
+             height: 22px;
+             padding: 7px 8px;
+             justify-content: center;
+             align-items: center;
+             gap: 5px;
+             border-radius: 4px;
+             background: #5DC22D;
+         }
+     }
+ }
+
+ @media (max-width: 1365px) {
+     .candidate_online {
+         //  width: 312px;
+         box-sizing: border-box;
+         width: 100%;
+     }
+ }
+
+ @media (max-width: 1023px) {
+     .candidate_online {
+         box-sizing: border-box;
+         width: 720px;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .candidate_online {
+         width: 100%;
+     }
+ }

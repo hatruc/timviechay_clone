@@ -1,0 +1,284 @@
+.title {
+    color: #474747;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+
+    width: 410px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .title {
+        color: #474747;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%;
+
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .body {
+        .divide1 {
+            display: none !important;
+        }
+
+        .divide2 {
+            color: #474747;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+            display: flex !important;
+
+        }
+    }
+}
+
+.dashed {
+    border-bottom: 1px solid #DDD;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 16px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+
+    .cach_1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+
+        .title_1 {
+            color: #474747;
+            text-align: justify;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+            align-self: stretch;
+        }
+
+        .account {
+            display: flex;
+            height: 36px;
+            padding: 10px 12px;
+            align-items: center;
+            gap: 8px;
+            align-self: stretch;
+            box-sizing: border-box;
+
+            border-radius: 30px;
+            border: 1px solid #D6D6D6;
+            background: #FFF;
+
+            .text {
+                outline: none;
+                border: none;
+
+                color: #474747;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .text::placeholder {
+                color: #8E8E8E;
+            }
+        }
+
+        .password {
+            display: flex;
+            height: 36px;
+            gap: 8px;
+            padding: 10px 12px;
+            justify-content: space-between;
+            align-items: center;
+            align-self: stretch;
+            box-sizing: border-box;
+
+            border-radius: 30px;
+            border: 1px solid #D6D6D6;
+            background: #FFF;
+
+            .input {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                .text {
+                    outline: none;
+                    border: none;
+
+                    color: #474747;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+
+                .text::placeholder {
+                    color: #8E8E8E;
+                }
+            }
+        }
+
+        .signIn {
+            display: flex;
+            height: 36px;
+            width: 100%;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            cursor: pointer;
+
+            border-radius: 30px;
+            background: #3582CD;
+
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            box-shadow: none;
+        }
+
+        .signIn:hover {
+            display: flex;
+            height: 36px;
+            width: 100%;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            cursor: pointer;
+
+            border-radius: 30px;
+            background: #3582CD;
+
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            box-shadow: none;
+        }
+
+        .signUp {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 12px;
+            align-self: stretch;
+
+            .text_1 {
+                color: #474747;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                >a {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+
+            .text_2 {
+                color: #FFA317;
+                text-align: right;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                cursor: pointer;
+
+                width: 191px;
+            }
+        }
+    }
+
+    .divide1 {
+        color: #474747;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+    }
+
+    .divide2 {
+        display: none;
+    }
+
+    .cach_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+
+        .title_2 {
+            color: #474747;
+            text-align: justify;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .uploadFile {
+            display: flex;
+            width: 100%;
+            padding: 8px 5px;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            align-self: stretch;
+            box-sizing: border-box;
+
+            border-radius: 3px;
+            background: rgba(204, 230, 255, 0.28);
+        }
+    }
+}

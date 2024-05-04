@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    background: #f0faff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+    .banner {
+        width: 100%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+        .image_banner {
+            width: 100%;
+            height: auto;
+        }
+
+        .name_cv {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+    }
+
+    .cv_body {
+        width: 100%;
+    }
+}

@@ -1,0 +1,61 @@
+.lightbox .box-a {
+	width: 480px;
+	font-size: 18px;
+}
+.lightbox .box-a h3 {
+	font-size: 21px;
+}
+#form_log .lightbox .box-a .ir {
+	font-size: 18px;
+}
+.exit {
+	top: 11px;
+	font-size: 40px;
+}
+#box_down .mr {
+	width: 800px;
+	font-size: 32px;
+	line-height: 40px;
+}
+.modal .mr {
+	margin-top: 100px;
+}
+#box_down .mr {
+	text-align: center;
+}
+#box_down .mr a {
+	padding: 30px 0;
+	width: 300px;
+	margin-right: 24px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+#box_down .mr a.last {
+	margin-left: 24px;
+}
+#form_log .row {
+	font-size: 24px;
+}
+.lightbox .box-a input[type='password'],
+.lightbox .box-a input[type='text'] {
+	font-size: 24px;
+	height: 52px;
+}
+#box_down .close {
+	font-size: 32px;
+	padding: 0 14px;
+	right: -44px;
+	height: 42px;
+}
+#imageEditorWraper h3 {
+	font-size: 21px;
+}
+#imageEditorWraper .btn-close-image-editor {
+	font-size: 16px;
+}
+.image-control-group .image-control-btn {
+	font-size: 24px;
+}
+#imageEditorWraper h4 {
+	font-size: 18px;
+}

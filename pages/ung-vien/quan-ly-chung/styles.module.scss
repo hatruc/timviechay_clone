@@ -1,0 +1,430 @@
+.container {
+    padding: 0 42px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    margin-bottom: 60px;
+    .box_ung_tuyen {
+        display: flex;
+        gap: 25px;
+        .item {
+            display: flex;
+            height: 154px;
+            width: 357px;
+            box-sizing: border-box;
+            padding: 24px 28px;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 5px solid #333;
+            gap: 12px;
+            border-radius: 12px;
+            background: #FFF;
+            box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+            .text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+                p {
+                    color: #3B3B3B;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 28px; /* 140% */
+                }
+            }
+            .quanlity {
+                font-family: Roboto;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 28px; /* 43.75% */
+            }
+        }
+    }
+    .box_suitable_job {
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 36px;
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.25);
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            p {
+                color: #3582cd;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+        .content {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            // align-items: flex-start;
+            gap: 40px;
+            // align-self: stretch;
+            .item {
+                display: flex;
+                padding: 12px;
+                box-sizing: border-box;
+                width: 48.6%;
+                align-items: center;
+                gap: 12px;
+                border-radius: 8px;
+                border: 1px solid #9AC1E6;
+                background: #F0F8FF;
+                .text {
+                    display: flex;
+                    width: 479px;
+                    flex-direction: column;
+                    gap: 12px;
+                    .required {
+                        p {
+                            color: #FF7A00;
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 135%; /* 21.6px */
+                        }
+                    }
+                    .com_name {
+                        p {
+                            color: #333;
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                    .job_desc {
+                        display: flex;
+                        gap: 8px;
+                        p {
+                            display: flex;
+                            padding: 4px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            border-radius: 6px;
+                            background: #FFF;
+                            color: #3582cd;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .box_chat {
+                    height: 100%;
+                    .chat {
+                        display: flex;
+                        width: 88px;
+                        padding: 7px 8px;
+                        box-sizing: border-box;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px;
+                        border-radius: 40px;
+                        background: #5DC22D;
+                        p {
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .button {
+            display: flex;
+            width: 143px;
+            padding: 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 40px;
+            background: var(--mau-work247-moi, #3582CD);
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0 auto;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .box_cv {
+        width: 100%;
+        display:flex;
+        gap: 34px;
+        .item {
+            display: flex;
+            padding: 32px;
+            width: calc(50% - 17px);
+            box-sizing: border-box;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 32px;
+            border-radius: 12px;
+            background: #FFF;
+            box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.25);
+            .title {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                p {
+                    color: #3582cd;
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+            .content {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .button {
+                display: flex;
+                gap: 4px;
+                align-items: center;
+                margin: 0 auto;
+                p {
+                    color: #F39623;
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+                img {
+                    margin-top: 2px;
+                }
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .cover_letter {
+        display: flex;
+        width: 100%;
+        padding: 32px;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.25);
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            p {
+                color: #3582cd;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+        .content {
+            display: flex;
+            align-items: flex-start;
+            gap: 48px;
+            align-self: stretch;
+            .item {
+                width: calc(25% - 36px);
+                p {
+                    color: #203656;
+                    font-family: Roboto;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%; /* 27px */
+                    align-self: stretch;
+                }
+            }
+        }
+        .button {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            margin: 0 auto;
+            p {
+                color: #F39623;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            img {
+                margin-top: 2px;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 1919px) {
+    .container {
+        padding: 0 25px;
+        .box_ung_tuyen {
+            flex-wrap: wrap;
+            .item {
+                width: calc(50% - 12.5px);
+            }
+        }
+        .box_suitable_job {
+            .content {
+                gap: 28px;
+                .item {
+                    width: calc(50% - 14px);
+                    align-items: flex-start;
+                    .job_desc {
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+        .box_cv {
+            gap: 40px;
+            .item {
+                width: calc(50% - 20px);
+                .content {
+                    gap: 20px;
+                    img {
+                        width: calc(50% - 10px) !important;
+                        height: auto !important;
+                    }
+                }
+            }
+        }
+        .cover_letter {
+            .content {
+                gap: 20px;
+                .item {
+                    width: calc(25% - 15px);
+                    img {
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1365px) {
+    .container {
+        padding: 0 16px;
+        .box_suitable_job {
+            .content {
+                .item {
+                    width: 100%;
+                    .text {
+                        width: calc(100% - 202px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        .box_ung_tuyen {
+            .item {
+                width: 100%;
+            }
+        }
+        .box_cv {
+            flex-direction: column;
+            .item {
+                width: 100%;
+            }
+        }
+        .cover_letter {
+            .content {
+                flex-wrap: wrap;
+                .item {
+                    width: calc(50% - 10px);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 12px;
+        .box_suitable_job {
+            .content {
+                .item {
+                    flex-direction: column;
+                    align-items: center;
+                    .text {
+                        width: 100%;
+                    }
+                    .box_chat {
+                        width: 100%;
+                        .chat {
+                            width: 100%;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .box_cv {
+            .item {
+                .content {
+                    flex-direction: column;
+                    img {
+                        width: 100% !important;
+                        height: auto !important;
+                    }
+                }
+            }
+        }
+        .cover_letter {
+            .content {
+                .item {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

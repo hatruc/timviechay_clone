@@ -1,0 +1,39 @@
+.delete_container {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+    p {
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 700;
+
+    }
+
+    .btns {
+        margin-top: 20px;
+
+        button {
+            border: none;
+            background-color: white;
+        }
+
+        .btn_delete {
+            background-color: #3582cd;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+
+        .btn_cancle {
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            border: 1px solid #3582cd;
+        }
+    }
+}

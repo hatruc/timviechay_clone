@@ -1,0 +1,23 @@
+.box-select-children {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .title-filter {
+        color: #999;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .select {
+        color: #474747;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

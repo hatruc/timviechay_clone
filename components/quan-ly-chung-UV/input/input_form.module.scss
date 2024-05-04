@@ -1,0 +1,113 @@
+.form_reg {
+    width: 100%;
+    float: left;
+    margin-bottom: 28px;
+    position: relative;
+    .icon_input {
+        cursor: pointer;
+        position: absolute;
+        top: 35px;
+        right: 10px;
+    }
+
+    .icon_input_show {
+        cursor: pointer;
+        position: absolute;
+        top: 40px;
+        right: 10px;
+    }
+
+    .form_title {
+        color: #333;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    label {
+        font-size: 16px;
+        line-height: 18px;
+        text-align: left;
+        float: left;
+        width: 100%;
+        margin: 0 0 8px 0;
+        font-family: Roboto-Medium, sans-serif;
+        color: #616264;
+
+        .red_star {
+            color: red;
+        }
+    }
+
+
+
+    input[type='text'],
+    input[type='email'],
+    textarea,
+    input[type='date'],
+    input[type='password'] {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        height: 41px;
+        border-radius: 4px;
+        padding: 14px 10px 12px 20px;
+        border: 1px solid #dad8d3;
+        outline: none;
+
+        &::placeholder {
+            display: flex;
+            height: 20px;
+            flex-direction: column;
+            justify-content: center;
+            flex: 1 0 0;
+            color: #757587;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+
+
+    .form_control {
+        width: 100%;
+        float: left;
+        border: 1px solid #dad8d3;
+        height: 42px;
+        border-radius: 6px;
+    }
+}
+
+.text_error {
+    margin: 12px;
+    font-size: 14px;
+    color: rgb(236, 93, 93);
+    font-style: italic;
+}
+
+
+
+.reg_left_50 {
+    width: 49%;
+    margin-right: 2%;
+}
+
+.reg_right_50 {
+    width: 49%;
+}
+
+@media (max-width: 768px) {
+    .reg_left_50 {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .reg_right_50 {
+        width: 100%;
+    }
+}

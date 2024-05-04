@@ -1,0 +1,102 @@
+.danhmuc_ql {
+    width: 100%;
+
+    a,
+    .v_text {
+        width: 100%;
+        line-height: 46px;
+        display: flex;
+        align-items: center;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 16px;
+    }
+
+    .danhmuc_link {
+        text-align: left;
+        padding: 20px 0 0 0;
+        font-size: 15px;
+
+        ul,
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .li_active,
+        li:hover {
+            background: #FFA14A;
+            border-radius: 24px 0px 0px 24px;
+            border-right: 4px solid #36409E;
+        }
+
+        .dmql {
+            margin-left: 8px;
+            margin-bottom: 10px;
+            padding-left: 25px;
+            line-height: 46px;
+            position: relative;
+            cursor: pointer;
+            align-items: center;
+            display: flex;
+            gap: 20px;
+
+            .v_img {
+                display: flex;
+                justify-self: center;
+                min-width: 28px;
+            }
+
+
+        }
+
+        .mt_ql:after {
+            content: url(/images/quan-ly-chung-ntd/ic_uv.png);
+            position: absolute;
+            right: 13px;
+            -webkit-transition: -webkit-transform .6s;
+        }
+
+        .mt_ql.active:after {
+            transform: rotate(-90deg);
+        }
+
+        .ex_dm {
+            text-align: left;
+            padding-left: 0px;
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.8s ease-in-out;
+
+            li {
+                padding-left: 17px;
+                margin-left: 28px;
+
+                a {
+                    color: white;
+                    display: block;
+                    line-height: 46px;
+                }
+            }
+
+            .log_out {
+                display: flex !important;
+                gap: 10px;
+                align-items: center;
+                color: #FFC700 !important;
+                font-family: Roboto-Medium, sans-serif;
+            }
+        }
+
+        .show {
+            max-height: 600px;
+            padding-left: 40px;
+            opacity: 1;
+        }
+    }
+}

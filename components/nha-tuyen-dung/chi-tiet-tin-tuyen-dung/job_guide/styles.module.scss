@@ -1,0 +1,391 @@
+@media (max-width: 767px) {
+    .job_detail_box_8 {
+        display: inline-flex;
+        padding: 20px 16px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .header {
+            display: flex;
+            padding: 0px 0px 0px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            border-left: 6px solid #3582CD;
+
+            >span {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+
+        .list_guide {
+            display: flex;
+            height: auto;
+            flex-direction: column;
+            gap: 14px;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                border-radius: 4px;
+                border: 1px solid #E3E3E3;
+
+                .img_css {
+                    width: 382px;
+                    height: 230px;
+                }
+
+                .content {
+                    display: flex;
+                    padding: 8px 12px;
+                    justify-content: center;
+                    // align-items: center;
+                    gap: 10px;
+                    width: 382px;
+                    align-self: stretch;
+                    box-sizing: border-box;
+                    height: 180px;
+                    text-overflow: ellipsis;
+                    .text {
+                        flex: 1 0 0;
+
+                        color: #474747;
+                        text-align: justify;
+                        font-family: Roboto;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .job_detail_box_8 {
+        width: 720px;
+        display: inline-flex;
+        padding: 20px 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .header {
+            display: flex;
+            padding: 0px 0px 0px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            border-left: 6px solid #3582CD;
+
+            >span {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+
+        .list_guide {
+            display: flex;
+            height: auto;
+            gap: 14px;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                border-radius: 4px;
+                border: 1px solid #E3E3E3;
+
+                .img_css {
+                    height: 130px;
+                    width: 215px;
+                }
+
+                .content {
+                    display: flex;
+                    padding: 8px 12px;
+                    justify-content: center;
+                    // align-items: center;
+                    gap: 10px;
+                    width: 215px;
+                    align-self: stretch;
+                    box-sizing: border-box;
+                    height: 180px;
+                    text-overflow: ellipsis;
+                    .text {
+                        flex: 1 0 0;
+
+                        color: #474747;
+                        text-align: justify;
+                        font-family: Roboto;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .job_detail_box_8 {
+        display: inline-flex;
+        width: 976px;
+        padding: 20px 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .header {
+            display: flex;
+            padding: 0px 0px 0px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            border-left: 6px solid #3582CD;
+
+            >span {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+
+        .list_guide {
+            display: flex;
+            height: auto;
+            gap: 74px;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                border-radius: 4px;
+                border: 1px solid #E3E3E3;
+
+                .img_css {
+                    height: 158px;
+                    width: 261px;
+                }
+
+                .content {
+                    display: flex;
+                    padding: 8px 12px;
+                    justify-content: center;
+                    // align-items: center;
+                    gap: 10px;
+                    width: 261px;
+                    align-self: stretch;
+                    box-sizing: border-box;
+                    height: 180px;
+                    text-overflow: ellipsis;
+                    .text {
+                        flex: 1 0 0;
+                        color: #474747;
+                        text-align: justify;
+                        font-family: Roboto;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .job_detail_box_8 {
+        width: 824px;
+        display: inline-flex;
+        padding: 20px 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .header {
+            display: flex;
+            padding: 0px 0px 0px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            border-left: 6px solid #3582CD;
+
+            >span {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+
+        .list_guide {
+            display: flex;
+            height: auto;
+            gap: 20px;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                border-radius: 4px;
+                border: 1px solid #E3E3E3;
+
+                .img_css {
+                    height: 150px;
+                    width: 245px !important;
+                }
+
+                .content {
+                    display: flex;
+                    padding: 8px 12px;
+                    justify-content: center;
+                    // align-items: center;
+                    gap: 10px;
+                    width: 245px;
+                    align-self: stretch;
+                    box-sizing: border-box;
+                    height: 180px;
+                    text-overflow: ellipsis;
+                    .text {
+                        flex: 1 0 0;
+                        color: #474747;
+                        text-align: justify;
+                        font-family: Roboto;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .job_detail_box_8 {
+        width: 824px;
+        display: inline-flex;
+        padding: 20px 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .header {
+            display: flex;
+            padding: 0px 0px 0px 16px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            border-left: 6px solid #3582CD;
+
+            >span {
+                color: #212F3F;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px;
+            }
+        }
+
+        .list_guide {
+            display: flex;
+            height: auto;
+            gap: 20px;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                border-radius: 4px;
+                border: 1px solid #E3E3E3;
+
+                .img_css {
+                    height: 150px;
+                    width: 245px !important;
+                }
+
+                .content {
+                    display: flex;
+                    padding: 8px 12px;
+                    justify-content: center;
+                    // align-items: center;
+                    gap: 10px;
+                    width: 245px;
+                    align-self: stretch;
+                    box-sizing: border-box;
+                    height: 180px;
+                    text-overflow: ellipsis;
+                    .text {
+                        flex: 1 0 0;
+                        color: #474747;
+                        text-align: justify;
+                        font-family: Roboto;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+}

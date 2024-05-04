@@ -1,0 +1,998 @@
+@media (max-width: 767px) {
+    .job_detail_box_7 {
+        display: flex;
+        // width: 414px;
+        width: 100%;
+        padding: 20px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+
+            >span {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 135%;
+            }
+        }
+
+        .list_suggest {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+
+            .item {
+                transition: 0.3s all;
+                display: flex;
+                position: relative;
+                padding: 15px 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 12px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F0F8FF;
+
+                .content {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 12px;
+                    align-self: stretch;
+
+                    .contentLeft {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 12px;
+                        flex: 1 0 0;
+                        // justify-content: center;
+
+                        .image_logo {
+                            position: relative;
+                            border-radius: 50%;
+                            width: 90px;
+                            height: 90px;
+
+                            .status_online {
+                                position: absolute;
+                                bottom: 9px;
+                                right: 9px;
+                                height: 12px;
+                                width: 12px;
+                                border-radius: 50%;
+                                background-color: rgb(2, 184, 2);
+                            }
+
+                        }
+
+                        .detail {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 12px;
+                            flex: 1 0 0;
+
+                            .detail_1 {
+                                color: #FF7A00;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 135%;
+                                align-self: stretch;
+                            }
+
+                            .detail_2 {
+                                color: #333;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .list_tag {
+                                display: flex;
+                                align-items: flex-start;
+                                align-content: flex-start;
+                                gap: 8px 12px;
+                                align-self: stretch;
+                                flex-wrap: wrap;
+
+                                .tag {
+                                    display: flex;
+                                    padding: 4px 8px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+
+                                    border-radius: 6px;
+                                    background: #FFF;
+
+                                    .text {
+                                        color: #3582CD;
+                                        font-family: Roboto;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contentRight {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 8px;
+                        align-self: stretch;
+
+                        .buttonBlue {
+                            display: flex;
+                            width: 50%;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #3582CD;
+
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+
+                        .buttonChat {
+                            display: flex;
+                            width: 50%;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #5DC22D;
+
+                            >span {
+                                color: #FFF;
+
+                                font-family: Roboto;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+
+                >svg {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .job_detail_box_7 {
+        display: flex;
+        width: 736px;
+        padding: 20px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+
+            >span {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 135%;
+            }
+        }
+
+        .list_suggest {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+
+            .item {
+                display: flex;
+                position: relative;
+                padding: 15px 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 20px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F0F8FF;
+
+                .content {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    align-self: stretch;
+
+                    .contentLeft {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 12px;
+                        flex: 1 0 0;
+
+                        .image_logo {
+                            position: relative;
+                            border-radius: 50%;
+                            width: 90px;
+                            height: 90px;
+
+                            .status_online {
+                                position: absolute;
+                                bottom: 5px;
+                                right: 5px;
+                                height: 16px;
+                                width: 16px;
+                                border-radius: 50%;
+                                background-color: rgb(2, 184, 2);
+                            }
+
+                        }
+
+                        .detail {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 12px;
+                            flex: 1 0 0;
+
+                            .detail_1 {
+                                color: #FF7A00;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 135%;
+                                align-self: stretch;
+                            }
+
+                            .detail_2 {
+                                color: #333;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .list_tag {
+                                display: flex;
+                                align-items: flex-start;
+                                align-content: flex-start;
+                                gap: 8px 12px;
+                                align-self: stretch;
+                                flex-wrap: wrap;
+
+                                .tag {
+                                    display: flex;
+                                    padding: 4px 8px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+
+                                    border-radius: 6px;
+                                    background: #FFF;
+
+                                    .text {
+                                        color: #3582CD;
+                                        font-family: Roboto;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contentRight {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 8px;
+                        align-self: stretch;
+
+                        .buttonBlue {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #3582CD;
+
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+
+                        .buttonChat {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #5DC22D;
+
+                            >span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                >svg {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .job_detail_box_7 {
+        display: flex;
+        width: 976px;
+        padding: 20px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+
+            >span {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 135%;
+            }
+        }
+
+        .list_suggest {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+
+            .item {
+
+                display: flex;
+                position: relative;
+                padding: 15px 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 20px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F0F8FF;
+
+                .content {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    align-self: stretch;
+
+                    .contentLeft {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 12px;
+                        flex: 1 0 0;
+
+                        .image_logo {
+                            position: relative;
+                            border-radius: 50%;
+                            width: 90px;
+                            height: 90px;
+
+                            .status_online {
+                                position: absolute;
+                                bottom: 9px;
+                                right: 9px;
+                                height: 12px;
+                                width: 12px;
+                                border-radius: 50%;
+                                background-color: rgb(2, 184, 2);
+                            }
+
+                        }
+
+                        .detail {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 12px;
+                            flex: 1 0 0;
+
+                            .detail_1 {
+                                color: #FF7A00;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 135%;
+                                align-self: stretch;
+                            }
+
+                            .detail_2 {
+                                color: #333;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .list_tag {
+                                display: flex;
+                                align-items: flex-start;
+                                align-content: flex-start;
+                                gap: 8px 12px;
+                                align-self: stretch;
+                                flex-wrap: wrap;
+
+                                .tag {
+                                    display: flex;
+                                    padding: 4px 8px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+
+                                    border-radius: 6px;
+                                    background: #FFF;
+
+                                    .text {
+                                        color: #3582CD;
+                                        font-family: Roboto;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contentRight {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 8px;
+                        align-self: stretch;
+
+                        .buttonBlue {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #3582CD;
+
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+
+                        .buttonChat {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #5DC22D;
+
+                            >span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                >svg {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .job_detail_box_7 {
+        display: flex;
+        width: 846px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+
+            >span {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 135%;
+            }
+        }
+
+        .list_suggest {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+
+            .item {
+                display: flex;
+                position: relative;
+                padding: 15px 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 20px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F0F8FF;
+
+                .content {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    align-self: stretch;
+
+                    .contentLeft {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 12px;
+                        flex: 1 0 0;
+
+                        .image_logo {
+                            position: relative;
+                            border-radius: 50%;
+                            width: 90px;
+                            height: 90px;
+
+                            .status_online {
+                                position: absolute;
+                                bottom: 9px;
+                                right: 9px;
+                                height: 12px;
+                                width: 12px;
+                                border-radius: 50%;
+                                background-color: rgb(2, 184, 2);
+                            }
+
+                        }
+
+                        .detail {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 12px;
+                            flex: 1 0 0;
+
+                            .detail_1 {
+                                color: #FF7A00;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 135%;
+                                align-self: stretch;
+                            }
+
+                            .detail_2 {
+                                color: #333;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .list_tag {
+                                display: flex;
+                                align-items: flex-start;
+                                align-content: flex-start;
+                                gap: 8px 12px;
+                                align-self: stretch;
+                                flex-wrap: wrap;
+
+                                .tag {
+                                    display: flex;
+                                    padding: 4px 8px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+
+                                    border-radius: 6px;
+                                    background: #FFF;
+
+                                    .text {
+                                        color: #3582CD;
+                                        font-family: Roboto;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contentRight {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 8px;
+                        align-self: stretch;
+
+                        .buttonBlue {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #3582CD;
+
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+
+                        .buttonChat {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #5DC22D;
+
+                            >span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                >svg {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .job_detail_box_7 {
+        display: flex;
+        width: 846px;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        box-sizing: border-box;
+
+        border-radius: 8px;
+        background: #FFF;
+
+        .title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+
+            >span {
+                color: #3582CD;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 135%;
+            }
+        }
+
+        .list_suggest {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+            align-self: stretch;
+
+            .item {
+                display: flex;
+                position: relative;
+                padding: 15px 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                gap: 20px;
+                align-self: stretch;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F0F8FF;
+
+                .content {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    align-self: stretch;
+
+                    .contentLeft {
+                        display: flex;
+                        align-items: flex-start;
+                        gap: 12px;
+                        flex: 1 0 0;
+
+                        .image_logo {
+                            position: relative;
+                            border-radius: 50%;
+                            width: 90px;
+                            height: 90px;
+
+                            .status_online {
+                                position: absolute;
+                                bottom: 9px;
+                                right: 9px;
+                                height: 12px;
+                                width: 12px;
+                                border-radius: 50%;
+                                background-color: rgb(2, 184, 2);
+                            }
+
+                        }
+
+                        .detail {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            gap: 12px;
+                            flex: 1 0 0;
+
+                            .detail_1 {
+                                color: #FF7A00;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 135%;
+                                align-self: stretch;
+                            }
+
+                            .detail_2 {
+                                color: #333;
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+
+                            .list_tag {
+                                display: flex;
+                                align-items: flex-start;
+                                align-content: flex-start;
+                                gap: 8px 12px;
+                                align-self: stretch;
+                                flex-wrap: wrap;
+
+                                .tag {
+                                    display: flex;
+                                    padding: 4px 8px;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 10px;
+
+                                    border-radius: 6px;
+                                    background: #FFF;
+
+                                    .text {
+                                        color: #3582CD;
+                                        font-family: Roboto;
+                                        font-size: 14px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .contentRight {
+                        display: flex;
+                        align-items: flex-end;
+                        gap: 8px;
+                        align-self: stretch;
+
+                        .buttonBlue {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #3582CD;
+
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+
+                        .buttonChat {
+                            display: flex;
+                            padding: 7px 8px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            outline: none;
+                            border: none;
+                            cursor: pointer;
+
+                            border-radius: 4px;
+                            background: #5DC22D;
+
+                            >span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                >svg {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 413px) {
+    .job_detail_box_7 {
+        width: 100% !important;
+
+        .list_suggest {
+            .item {
+                .content {
+                    .contentRight {
+                        // justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}

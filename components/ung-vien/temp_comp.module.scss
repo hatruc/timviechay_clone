@@ -1,0 +1,39 @@
+.temp_comp {
+    display: flex;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFF;
+    
+
+    .h2_title {
+        display: flex;
+        padding: 0px 487.8px 0px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        border-left: 6px solid #3582CD;
+
+        p {
+            color: #212F3F;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px;
+            max-width: 699.8px;
+        }
+    }
+}
+
+@media (max-width: 1365px) {
+    .temp_comp {
+        .h2_title {
+            display: flex;
+            padding: unset;
+            padding-left: 16px;
+        }
+    }
+}

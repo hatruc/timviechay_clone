@@ -1,0 +1,48 @@
+.button {
+    display: flex;
+    width: 67px;
+    height: 30px;
+    padding: 6px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 30px;
+    background: #2767A5;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+.button_send {
+    display: flex;
+    width: 67px;
+    height: 30px;
+    padding: 6px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    outline: none;
+    border: none;
+
+    border-radius: 30px;
+    background: #C9C9C9;
+
+    color: #2767A5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 114.286% */
+}

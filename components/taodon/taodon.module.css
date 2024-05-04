@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('/public/font/fontawesome-webfont.eot?v=4.7.0');
+	src: url('/public/font/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+		url('/public/font/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('/public/font/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+		url('/public/font/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+		url('/public/font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.donne {
+}
+
+.grWrapper {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+
+	.btn1 {
+		font-size: 16px;
+		background: #232f87;
+		color: #fff;
+		padding: 8px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.like {
+		font-size: 16px;
+		background: #232f87;
+		color: #fff;
+		padding: 8px;
+		border-radius: 5px;
+		cursor: pointer;
+		width: 40px;
+		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.close {
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.syllWrapper {
+		zoom: 1.1;
+	}
+
+	.toolbar {
+		display: flex;
+		justify-content: center;
+		height: fit-content;
+	}
+
+	.hsWrapper {
+		width: 100%;
+		overflow: scroll;
+		height: fit-content !important;
+		margin-top: 30px;
+	}
+	.boxWrapper {
+		display: flex;
+		width: 2000px;
+		gap: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.syllWrapper {
+		zoom: 0.8;
+	}
+
+	.toolbar {
+		display: flex;
+		justify-content: center;
+		height: fit-content;
+	}
+
+	.hsWrapper {
+		width: 100%;
+		overflow: scroll;
+		height: fit-content !important;
+		margin-top: 30px;
+	}
+	.boxWrapper {
+		display: flex;
+		width: 3000px;
+		gap: 20px;
+	}
+
+	.wrapper {
+		margin-top: 50px;
+		scale: 0.7;
+		margin-bottom: calc(500px * -0.7) !important;
+		overflow-x: hidden !important;
+		transform-origin: 0 0;
+		width: 552px !important;
+		height: 100%;
+	}
+
+	.head {
+		display: none;
+	}
+
+	.scale {
+		/* transform: scale(0.7); */
+		/* transform: scale(0.4);
+		transform-origin: left top; */
+		zoom: 0.7;
+	}
+
+	.box4 {
+		display: flex;
+		width: 1200px;
+		gap: 20px;
+		height: fit-content;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.outerWrapper {
+		height: auto !important;
+	}
+
+	.syllWrapper {
+		zoom: 0.45;
+	}
+
+	.toolbar {
+		display: flex;
+		justify-content: center;
+	}
+
+	.topFooter {
+		zoom: 0.6;
+	}
+}

@@ -1,0 +1,25 @@
+/* @import url('/cv365/js/slick/slick.css');
+@import url('/cv365/js/slick/slick-theme.css'); */
+@import url('/cv365/css/style_cv2.css');
+@import url('/cv365/css/cvh.css');
+/* @import url('/cv365/css/taocv_v2.css'); */
+@import url('/cv365/css/cropper.css');
+@import url('/cv365/css/respon_tablet.css');
+@import url('/cv365/css/style_header_chung.css');
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('/public/font/fontawesome-webfont.eot?v=4.7.0');
+    src: url('/public/font/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+        url('/public/font/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('/public/font/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+        url('/public/font/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+        url('/public/font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and(max-width: 768px) {
+    .qcCreateBg {
+        display: none;
+    }
+}

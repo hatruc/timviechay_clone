@@ -1,0 +1,195 @@
+.intro {
+    margin-top: 40px;
+    height: 174px;
+    width: 1506px;
+    display: flex;
+    gap: 46px;
+    .info {
+        display: flex;
+        width: 577px;
+        height: 174px;
+        padding: 20px 20px 20px 40px;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 20px;
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: 0px 4px 7px 0px rgba(51, 51, 51, 0.25);
+        .avatar {
+            width: 114px;
+            height: 114px;
+            border-radius: 50%;
+            background-color: lightgray;
+            overflow: hidden;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            * {
+                display: flex;
+                gap: 4px;
+            }
+            p {
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+    .ads {
+        width: 881px;
+        height: 174px;
+        padding: 45px 14px 45px 37px;
+        box-sizing: border-box;
+        border-radius: 12px;
+        opacity: 0.8;
+        background-image: url(/images/nha-tuyen-dung/quan-ly-chung/ads.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        .ads_intro {
+            width: 561px;
+            height: 84px;
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; /* 42px */
+        }
+        .ads_logo {
+            display: flex;
+            width: 208px;
+            height: 59px;
+            padding: 8px 12px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 60px;
+            background: #FFF;
+            box-shadow: 0px 5px 10px 0px rgba(9, 16, 31, 0.42);
+            p {
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 1919px) {
+    .intro {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 25px;
+        .info {
+            width: 48%;
+            height: 148px;
+            padding: 16px 20px;
+            .text {
+                width: 320px;
+            }
+        }
+        .ads {
+            width: 49%;
+            height: 148px;
+            gap: 16px;
+            padding: 9px 29px 18px 29px;
+            flex-direction: column;
+            .ads_intro {
+                width: 100%;
+                height: 54px;
+                font-size: 20px;
+            }
+            .ads_logo {
+                padding: 4px 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1365px) {
+    .intro {
+        justify-content: space-between;
+        height: auto;
+        .info {
+            width: 49.8%;
+            justify-content: space-around;
+        }
+        .ads {
+            width: 47.4%;
+            .ads_logo {
+                height: 41px; 
+                img {
+                    width: 22px !important;
+                    height: 32px !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .intro {
+        flex-direction: column;
+        .info {
+            justify-content: flex-start;
+            width: 100%;
+        }
+        .ads {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        .info {
+            height: 172px;
+            padding: 12px;
+            gap: 12px;
+            .avatar {
+                width: 85px;
+                height: 85px;
+                img {
+                    width: 85px !important;
+                    height: 85px !important;
+                }
+            }
+            .text {
+                width: 60%;
+                gap: 4px;
+                font-size: 16px;
+                * {
+                    display: block;
+                }
+                p {
+                    display: inline-block;
+                    white-space: pre;
+                    font-size: 16px;
+                }
+            }
+        }
+        .ads {
+            height: 172px;
+            .ads_intro {
+                height: auto;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,449 @@
+@media (max-width: 767px) {
+    .list_news_box_3 {
+        display: flex;
+        width: 414px;
+        padding: 32px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        box-sizing: border-box;
+
+        border-radius: 12px;
+        background: #FFF;
+
+        .title {
+            color: #474747;
+
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .groupKeyTag {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 374px;
+            gap: 20px;
+
+            .item_list_key {
+                width: 696px;
+                height: 450px;
+                display: flex;
+                padding: 20px 0px 20px 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F4F9FF;
+
+                .title_tag {
+                    color: #474747;
+
+                    font-family: Roboto;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .overflow {
+                    width: 100%;
+                    overflow-y: auto;
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .key {
+                        color: #474747;
+
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .overflow::-webkit-scrollbar {
+                    width: 6px;
+                    margin-right: 5px;
+                }
+
+                .overflow::-webkit-scrollbar-thumb {
+                    background-color: #8CC2F5;
+                    border-radius: 4px;
+                }
+
+                .overflow::-webkit-scrollbar-track {
+                    background-color: transparent;
+                    /* Màu nền của phần track */
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .list_news_box_3 {
+        display: flex;
+        width: 736px;
+        padding: 32px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        box-sizing: border-box;
+
+        border-radius: 12px;
+        background: #FFF;
+
+        .title {
+            color: #474747;
+
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .groupKeyTag {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 736px;
+            gap: 20px;
+
+            .item_list_key {
+                width: 696px;
+                height: 450px;
+                display: flex;
+                padding: 20px 0px 20px 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F4F9FF;
+
+                .title_tag {
+                    color: #474747;
+
+                    font-family: Roboto;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .overflow {
+                    width: 100%;
+                    overflow-y: auto;
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .key {
+                        color: #474747;
+
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .overflow::-webkit-scrollbar {
+                    width: 6px;
+                    margin-right: 5px;
+                }
+
+                .overflow::-webkit-scrollbar-thumb {
+                    background-color: #8CC2F5;
+                    border-radius: 4px;
+                }
+
+                .overflow::-webkit-scrollbar-track {
+                    background-color: transparent;
+                    /* Màu nền của phần track */
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .list_news_box_3 {
+        display: flex;
+        width: 982px;
+        padding: 32px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        box-sizing: border-box;
+
+        border-radius: 12px;
+        background: #FFF;
+
+        .title {
+            color: #474747;
+
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .groupKeyTag {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 942px;
+            gap: 20px;
+
+            .item_list_key {
+                width: 300px;
+                height: 450px;
+                display: flex;
+                padding: 20px 0px 20px 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F4F9FF;
+
+                .title_tag {
+                    color: #474747;
+
+                    font-family: Roboto;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .overflow {
+                    width: 100%;
+                    overflow-y: auto;
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .key {
+                        color: #474747;
+
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .overflow::-webkit-scrollbar {
+                    width: 6px;
+                    margin-right: 5px;
+                }
+
+                .overflow::-webkit-scrollbar-thumb {
+                    background-color: #8CC2F5;
+                    border-radius: 4px;
+                }
+
+                .overflow::-webkit-scrollbar-track {
+                    background-color: transparent;
+                    /* Màu nền của phần track */
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1919px) {
+    .list_news_box_3 {
+        display: flex;
+        width: 1200px;
+        padding: 32px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        box-sizing: border-box;
+
+        border-radius: 12px;
+        background: #FFF;
+
+        .title {
+            color: #474747;
+
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .groupKeyTag {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 1160px;
+            gap: 20px;
+
+            .item_list_key {
+                width: 373px;
+                height: 450px;
+                display: flex;
+                padding: 20px 0px 20px 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F4F9FF;
+
+                .title_tag {
+                    color: #474747;
+
+                    font-family: Roboto;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .overflow {
+                    width: 100%;
+                    overflow-y: auto;
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .key {
+                        color: #474747;
+
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .overflow::-webkit-scrollbar {
+                    width: 6px;
+                    margin-right: 5px;
+                }
+
+                .overflow::-webkit-scrollbar-thumb {
+                    background-color: #8CC2F5;
+                    border-radius: 4px;
+                }
+
+                .overflow::-webkit-scrollbar-track {
+                    background-color: transparent;
+                    /* Màu nền của phần track */
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .list_news_box_3 {
+        display: flex;
+        width: 1200px;
+        padding: 32px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        box-sizing: border-box;
+
+        border-radius: 12px;
+        background: #FFF;
+
+        .title {
+            color: #474747;
+
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .groupKeyTag {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 1160px;
+            gap: 20px;
+
+            .item_list_key {
+                width: 373px;
+                height: 450px;
+                display: flex;
+                padding: 20px 0px 20px 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                box-sizing: border-box;
+
+                border-radius: 8px;
+                background: #F4F9FF;
+
+                .title_tag {
+                    color: #474747;
+
+                    font-family: Roboto;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                .overflow {
+                    width: 100%;
+                    overflow-y: auto;
+                    gap: 20px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .key {
+                        color: #474747;
+
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                }
+
+                .overflow::-webkit-scrollbar {
+                    width: 6px;
+                    margin-right: 5px;
+                }
+
+                .overflow::-webkit-scrollbar-thumb {
+                    background-color: #8CC2F5;
+                    border-radius: 4px;
+                }
+
+                .overflow::-webkit-scrollbar-track {
+                    background-color: transparent;
+                    /* Màu nền của phần track */
+                }
+            }
+        }
+    }
+}

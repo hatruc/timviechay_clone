@@ -1,0 +1,173 @@
+#page-letter{
+	width: 800px;
+	float: left;
+
+}
+
+#form-letter {
+    width: 100%;
+	float: left;	
+	height: 1130px;
+	color:#000;
+	position: relative;
+	background: url(bg1.png)no-repeat;
+	background-size: 100% 100%;
+}
+
+#form-letter .w{
+	position: relative;	
+	width: 172px;
+	height: 140px;
+	float: left;	
+	margin-right: 30px
+}
+.bar-tool{
+	z-index: 1;
+}
+#lt-top{		
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	position: relative;
+	z-index: 99;
+	padding-top: 90px;
+}
+
+#form-letter:before{
+	position: absolute;
+	content:"";
+	height: 130px;
+	width:96%;
+	left:0;
+	top:0
+}
+/*#form-letter:after{
+	position: absolute;
+	background: url('../bg-bottom.png') #fff bottom center no-repeat;
+	content:"";
+	height: 251px;
+	width:100%;
+	right:0;
+	bottom:0
+}*/
+#lt-content{	
+	min-height: 300px;
+	margin-bottom: 30px;
+	position: relative;
+	font-size: 15px;
+	text-align: justify;
+	line-height: 22px
+}
+.end_write{
+	float: right;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+	width: 42%;
+	font-weight: bold;
+}
+.text-top,
+.text-ad{
+	text-align: left;
+}
+#lto-user-to{
+	text-align: justify;
+	display: inline;
+}
+#lt-top p{
+	padding: 0px;
+	margin: 0px;
+}
+#lt-right{
+	position: relative;
+}
+#lt-right ul{		
+	color:#fff;		
+	position: relative
+}
+#lt-right .ir{
+	line-height: 26px;
+}
+#lt-top h1{	
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #000;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+    margin: 0px;
+}
+#lt-top h2{
+	font-size: 18px;
+	text-transform: capitalize
+}
+.box-01{
+	padding-top: 5px;
+	font-size: 12px;
+	width:575px;
+	float: left
+}
+
+#lt-content .ir{
+	padding:10px 60px 20px 60px;
+}
+#lt-content p{
+	margin: 0px;
+	line-height: 24px;
+}
+#lt-content .ir a{
+	color: #323033
+}
+#lt-right .ir{
+	padding:0 60px
+}
+#lt-right .info{
+	background: #898989
+}
+#lt-right .box-02{
+	padding-top: 10px;
+	color:#005563;
+}
+.box-02 .left{
+	width: 70%;
+	float: left;
+}
+.box-02 .left span{
+	width: 450px;
+    display: inline-block;
+    vertical-align: top
+}
+.box-02 .right{
+	float: right;	
+}
+#lt-right ul li{
+	display: inline-block;
+	padding:10px 20px;	
+}
+#lt-right ul li:first-child{
+	padding-left: 0
+}
+#lt-right ul li:last-child{
+	padding-right: 0
+}
+#lt-right ul li strong{
+	text-transform: uppercase;
+}
+
+#lt-content p {
+	font-family: 'Roboto', sans-serif !important;
+}
+.MsoNormal span{
+	    font-family: 'Roboto',sans-serif !important
+}
+
+.text-top {
+	font-weight: bold;
+}
+.text-top:nth-child(even){
+	font-weight: normal;
+}
+#lto-content{
+	margin-top: 20px;
+	line-height: 28px;
+}

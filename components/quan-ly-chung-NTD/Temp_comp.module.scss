@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    box-sizing: border-box;
+    // background: #F3F5F7;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        overflow: auto;
+        width: calc(100% - 284px);
+        background: #F3F5F7;
+        // height: 1490px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container {
+        .content {
+            width: calc(100% - 343px);
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        .content {
+            width: calc(100%);
+        }
+    }
+}
+
+
+@media (max-width: 430px) {
+    .container {
+        .content {
+            height: fit-content;
+        }
+    }
+}

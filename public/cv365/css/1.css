@@ -1,0 +1,603 @@
+/* Zoom cv  */
+
+#cv-profile-birthday:before,
+#cv-profile-sex:before,
+#cv-profile-phone:before,
+#cv-profile-email:before,
+#cv-profile-address:before,
+#cv-profile-face:before {
+	color: #9197a3 !important;
+	font-weight: 100 !important;
+	padding: 3px !important;
+}
+
+[contenteditable='true']:empty:before {
+	content: attr(cvo-placeholder);
+	color: #9197a3;
+	font-weight: 100;
+	padding: 3px;
+}
+
+.overlay {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+	background: rgba(0, 0, 0, 0.35);
+	backdrop-filter: blur(5px);
+	display: none;
+}
+
+.zoom_cv.overlay {
+	background: url('https://timviec365.vn/cv365/images_cv365/bg_zom_cv.png') no-repeat;
+	background-size: 100% 100%;
+}
+
+.zoom_cv .wapper {
+	margin: auto;
+	margin-top: 6vh;
+	height: calc(100% - 7vh);
+}
+
+.zoom_cv .po_r,
+.zoom_cv .p_left {
+	height: 100%;
+}
+
+.zoom_cv .p_left {
+	text-align: center;
+}
+
+.zoom_cv .frame_img {
+	max-height: 100%;
+	overflow: auto;
+}
+
+#zoom_cv .img_cv {
+	max-width: 1000px;
+	width: 100%;
+}
+
+.zoom_cv .frame_img .close_zoom_cv {
+	height: 28px;
+	width: 28px;
+	margin-left: 8px;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	right: -40px;
+}
+
+.po_r {
+	position: relative;
+}
+
+.box_point_cv {
+	width: 100%;
+	display: flex;
+	background: #f4f6ff;
+	padding: 6px 0px;
+}
+
+.box_point_cv .item {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px 0px;
+}
+
+.box_point_cv .item:nth-child(1) {
+	border-right: 1px solid #b2b9ef;
+}
+
+.box_point_cv .item p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 149%;
+	color: #474747;
+}
+
+/* end zoom cv  */
+.blog-hd {
+	display: table;
+	width: 100%;
+}
+
+#a {
+	display: table;
+	width: 100%;
+}
+
+.menu_nncv .dm_more {
+	z-index: 9999;
+}
+
+#hoso-scroll {
+	z-index: 0;
+}
+
+.paging-arrow {
+	position: relative;
+}
+
+.paging-arrow::before {
+	content: '';
+	position: absolute;
+	height: 19px;
+	left: -31px;
+	width: 26px;
+	background-image: url(https://timviec365.vn/cv365/images/s_page.gif);
+}
+
+#liveChatContainer {
+	display: none;
+}
+.box_btn.btn_bg {
+	position: relative;
+	justify-content: center;
+}
+.qc_create_bg {
+	position: absolute;
+	top: 150%;
+	z-index: 9999;
+}
+.qc_create_bg .content_qc:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: '';
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.qc_create_bg .content_qc:before {
+	/* border-color: linear-gradient(265deg, #FFC856 -10.85%, #FEFABA 78.92%); */
+	border-bottom-color: #fefaba;
+	border-width: 15px;
+	margin-left: -15px;
+}
+.qc_create_bg .content_qc {
+	position: relative;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	border-radius: 12px;
+	background: linear-gradient(265deg, #ffc856 -10.85%, #fefaba 78.92%);
+	padding: 7px 16px;
+	width: 400px;
+}
+.qc_create_bg .content_qc .text {
+	color: #a66300;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.qc_create_bg .content_qc .btn_remove_qc {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+/* CHANGE BACKGOUND */
+
+/* The container */
+.container_radio_bg {
+	display: block;
+	position: relative;
+	padding-left: 0px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+	width: 145px;
+	height: 224px;
+}
+
+/* Hide the browser's default radio button */
+.container_radio_bg input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* Create a custom radio button */
+.container_radio_bg .checkmark {
+	position: absolute;
+	left: unset;
+	right: 10px;
+	top: 10px;
+	height: 37px;
+	width: 37px;
+	background-color: #eee;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+}
+
+/* On mouse-over, add a grey background color */
+.container_radio_bg:hover input ~ .checkmark {
+	background-color: #2196f3;
+}
+
+/* When the radio button is checked, add a blue background */
+.container_radio_bg input:checked ~ .checkmark {
+	background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.container_radio_bg .checkmark:after {
+	content: '';
+	position: absolute;
+	display: none;
+}
+
+.container_radio_bg:hover .checkmark::after {
+	display: block;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container_radio_bg input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container_radio_bg .checkmark:after {
+	left: 11px;
+	top: 4px;
+	width: 9px;
+	height: 17px;
+	border: solid white;
+	border-width: 0 4px 4px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.container_radio_bg .img_select {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.change_background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.35);
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	top: 0;
+	z-index: 999999;
+}
+.change_background .pop_change_background {
+	background: #ffffff;
+	border-radius: 4px;
+	width: 700px;
+	max-height: calc(100% - 20px);
+	height: 100%;
+	max-width: 90%;
+	overflow: auto;
+}
+
+.change_background .box_change_bg {
+	display: flex;
+	flex-direction: column;
+	border-radius: 4px;
+	height: 100%;
+}
+
+.change_background .box_change_bg .cb_header {
+	background: #4c5bd4;
+	padding: 10px 20px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 4px 4px 0px 0px;
+	position: sticky;
+	top: 0;
+}
+
+.change_background .box_change_bg .cb_header .cb_hd_text {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+	color: #ffffff;
+}
+
+.change_background .box_change_bg .cb_header .btn_close {
+	width: 24px;
+	height: 24px;
+	background: none;
+	border: none;
+}
+.change_background .box_change_bg .cb_body {
+	padding: 20px;
+	height: calc(100% - 44px);
+	overflow: auto;
+}
+.change_background .box_change_bg .cb_content,
+.change_background .box_change_bg .cb_body {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.change_background .box_change_bg .cb_content {
+	height: calc(100% - 80px);
+}
+
+.change_background .box_change_bg .cb_content .box_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.change_background .box_change_bg .cb_content .box_title .title {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: normal;
+	color: #333333;
+}
+.change_background .box_change_bg .cb_content .box_title .upload_file_bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 16px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: normal;
+	background: #7e7e7e;
+	color: #ffffff;
+	gap: 8px;
+}
+.change_background .box_change_bg .cb_content .box_select_img {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	height: calc(100% - 124px);
+	overflow: auto;
+}
+.change_background .box_change_bg .cb_content .box_select_img::-webkit-scrollbar {
+	display: none;
+}
+
+.change_background .box_change_bg .cb_content .box_try_ai {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.change_background .box_change_bg .cb_content .box_try_ai .sub_text {
+	color: #999;
+	text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.change_background .box_change_bg .cb_content .box_try_ai .title_try {
+	color: #333;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.change_background .box_change_bg .cb_content .box_try_ai .btn_try {
+	background: #4c5bd4;
+	border: none;
+	border-radius: 6px;
+	padding: 13px 20px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: normal;
+	color: #ffffff;
+}
+
+.change_background .box_change_bg .cb_btn {
+	display: flex;
+	padding: 20px 20px 0px 20px;
+	justify-content: center;
+	gap: 22px;
+	border-top: 1px solid #dedede;
+}
+
+.change_background .box_change_bg .cb_btn button {
+	width: 152px;
+	height: 44px;
+	border-radius: 30px;
+	background: #ececec;
+	border: none;
+	color: #474747;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.change_background .box_change_bg .cb_btn button.btn_blue {
+	background: #4c5bd4;
+	color: #ffffff;
+}
+.txt_error {
+	color: #f31111;
+}
+.change_background .box_input_des,
+.change_background .box_input_des .cb_body {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.change_background .box_input_des .box_inp {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.change_background .box_input_des .inp_title {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: normal;
+}
+.change_background .box_input_des .box_select_bg_type .inp_title {
+	text-align: center;
+}
+.change_background .box_input_des .box_btn_select .inp_title {
+	text-align: center;
+	font-weight: 500;
+	color: #999;
+	font-style: italic;
+}
+.change_background .box_input_des .err {
+	color: #ff4d43;
+}
+
+.change_background .box_input_des .inp_des_bg {
+	width: 100%;
+	height: 100px;
+	padding: 16px;
+	color: #696969;
+
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 135%;
+	resize: none;
+}
+.change_background .box_input_des .box_select_bg_type .row_select_bg {
+	display: flex;
+	gap: 20px;
+}
+.change_background .box_input_des .box_select_bg_type .row_select_bg select {
+	width: calc((100% - 20px) / 2);
+	padding: 8px 16px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	border-radius: 6px;
+	border: 1px solid #c9c9c9;
+	background: #ffffff;
+}
+.change_background .box_input_des .box_btn_select button {
+	display: flex;
+	padding: 13px 20px;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: normal;
+	color: #ffffff;
+	background: #4c5bd4;
+	border: none;
+	border-radius: 6px;
+	width: fit-content;
+	align-self: center;
+}
+.change_background .box_preview,
+.change_background .box_preview .cb_body {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.change_background .box_preview .cb_content .box_show_bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: calc(100% - 40px);
+	/* height: -webkit-fill-available; */
+	background: #484848;
+}
+.change_background .box_preview .cb_content .box_show_bg img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.change_background .box_preview .cb_content .box_refresh {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.change_background .box_preview .cb_content .box_refresh button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border-radius: 4px;
+	background: #eff1ff;
+	color: #4c5bd4;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	padding: 12px 16px;
+	border: none;
+}
+@media (max-width: 750px) {
+	.qc_create_bg .content_qc {
+		display: none;
+	}
+
+	.change_background .pop_change_background {
+		width: 382px;
+	}
+	.change_background .box_change_bg .cb_header .cb_hd_text {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.change_background .box_change_bg .cb_content .box_select_img {
+		gap: 10px;
+		row-gap: 16px;
+	}
+	.container_radio_bg {
+		width: 110px;
+		height: 170px;
+	}
+	.change_background .box_change_bg .cb_body {
+		padding: 12px;
+	}
+	.change_background .box_input_des {
+		gap: 0;
+	}
+	.change_background .box_input_des .cb_body {
+		gap: 15px;
+	}
+	.change_background .box_preview .cb_content .box_show_bg {
+		height: 265px;
+	}
+}
+
+.select2-search .select2-search--inline {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 1024px) {
+	.qc_create_bg {
+		display: none !important;
+	}
+
+	#mn-pc {
+		display: none !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.box_btn.btn_bg {
+		display: none;
+	}
+}

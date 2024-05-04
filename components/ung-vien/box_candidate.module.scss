@@ -1,0 +1,236 @@
+.box_candidate {
+    display: flex;
+    padding: 15px 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: 20px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #F0F8FF;
+
+    .candidate_container {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        align-self: stretch;
+
+        .content_left {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            flex: 1 0 0;
+
+            .content_detai_candidate {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex: 1 0 0;
+                align-self: stretch;
+
+                .name {
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 135%;
+                    width: 522px;
+                    text-transform: uppercase;
+                }
+
+                .position {
+                    color: #333;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-transform: capitalize;
+                }
+
+                .box_detail {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 8px;
+
+                    .item_detail {
+                        display: flex;
+                        padding: 8px;
+                        align-items: center;
+                        gap: 8px;
+                        border-radius: 6px;
+                        background: #FFF;
+
+                        p {
+                            color: #3582CD;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .content_right {
+            display: flex;
+            align-items: flex-end;
+            gap: 8px;
+            align-self: stretch;
+
+            .save_store {
+                display: flex;
+                padding: 7px 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                border-radius: 4px;
+                background: #3582CD;
+
+                p {
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+
+            .chat {
+                display: flex;
+                padding: 7px 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+                border-radius: 4px;
+                background: #5DC22D;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 1365px) {
+    .box_candidate {
+        .candidate_container {
+            .content_left {
+                .content_detai_candidate {
+                    .name {
+                        width: 332px;
+                    }
+
+                    .box_detail {
+                        .item_detail {
+                            gap: unset;
+                        }
+
+                        .item_detail:nth-child(3) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .box_candidate {
+        .candidate_container {
+            .content_left {
+                .content_detai_candidate {
+                    gap: 12px;
+
+                    .name {
+                        width: 430px;
+                    }
+
+                    .box_detail {
+                        flex-wrap: wrap;
+
+                        .item_detail {
+                            gap: unset;
+                        }
+
+                        .item_detail:nth-child(3) {
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .box_candidate {
+        .candidate_container {
+            flex-direction: column;
+
+            .content_left {
+                .box_ava {
+                    width: 58px;
+                    height: 58px;
+                    border-radius: 50%;
+                }
+
+                .content_detai_candidate {
+                    gap: 12px;
+
+                    .name {
+                        width: 135px;
+                    }
+
+                    .box_detail {
+                        flex-wrap: wrap;
+
+                        .item_detail {
+                            gap: unset;
+                        }
+
+                        .item_detail:nth-child(3) {
+                            display: flex;
+                        }
+                    }
+                }
+            }
+
+            .content_right {
+                display: flex;
+                align-items: flex-end;
+                gap: 8px;
+                align-self: stretch;
+
+                .save_store {
+                    display: flex;
+                    height: 36px;
+                    padding: 7px 8px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex: 1 0 0;
+                    border-radius: 4px;
+                    background: #3582CD;
+                }
+
+                .chat {
+                    display: flex;
+                    height: 36px;
+                    padding: 7px 8px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 5px;
+                    flex: 1 0 0;
+                    border-radius: 4px;
+                    background: #5DC22D;
+                }
+            }
+        }
+    }
+}

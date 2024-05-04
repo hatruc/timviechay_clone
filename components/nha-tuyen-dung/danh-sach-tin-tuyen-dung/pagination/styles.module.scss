@@ -1,0 +1,45 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .page {
+        display: flex;
+        min-width: 28px;
+        height: auto;
+        padding: 6px 0px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        border: 1px solid #999;
+        background: #FFF;
+        color: #999;
+        cursor: pointer;
+
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .pageFocus {
+        display: flex;
+        min-width: 28px;
+        padding: 6px 0px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        border-radius: 30px;
+        border: 1px solid #3582CD;
+        background: #3582CD;
+        color: #FFF;
+
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,341 @@
+.container {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px 0px rgba(51, 51, 51, 0.25);
+    margin-bottom: 56px;
+
+    .box_content {
+        display: flex;
+        width: 960px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 45px;
+
+        .title_info {
+            height: 30px;
+            color: #3582CD;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .form_gr {
+            width: 100%;
+            float: left;
+            margin-bottom: -16px;
+        }
+
+        .box_info_account {
+            display: flex;
+            align-items: center;
+            gap: 129px;
+            align-self: stretch;
+
+            .box_info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 28px;
+                flex: 1 0 0;
+                align-self: stretch;
+            }
+
+            .box_avatar {
+                display: flex;
+                align-items: center;
+                gap: 27px;
+
+                .up_avatar {
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    border-radius: 100px;
+                    background: #EBF5FF;
+                    position: relative;
+
+                    .avatar {
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+
+                    .nut_up {
+                        width: 41px;
+                        height: 41px;
+                        max-width: 130px;
+                        max-height: 90px;
+                        position: absolute;
+                        right: 0px;
+                        bottom: 0px;
+                    }
+                }
+
+                .box_img_ava {
+                    width: 180px;
+                    height: 180px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+                label {
+                    font-size: 16px;
+                    line-height: 18px;
+                    text-align: left;
+                    float: left;
+                    width: 100%;
+                    font-family: Roboto-Medium, sans-serif;
+                    color: #616264;
+                }
+
+                .form_title {
+                    color: #333;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+
+            }
+        }
+
+        .box_info_NTD,
+        .box_contact {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 24px;
+            align-self: stretch;
+        }
+    }
+
+    .confirm_update {
+        display: flex;
+        width: 155px;
+        margin: 0 auto;
+        height: 49px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        gap: 10px;
+        border-radius: 4px;
+        background: linear-gradient(90deg, #3494D9 16.78%, #72BDE7 52.36%, #A5C5F6 88.46%);
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1366px) {
+    .container {
+        gap: 45px;
+        margin-top: 36px;
+
+        .box_content {
+            width: 908px;
+            gap: 37px;
+
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        gap: 32px;
+        margin-top: 36px;
+
+        .box_content {
+            width: 706px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        gap: 37px;
+
+        .box_content {
+            // width: 510px;
+            gap: 28px;
+
+            .title_info {
+                width: unset;
+            }
+
+            .box_info_account {
+                display: flex;
+                gap: 24px;
+                align-self: stretch;
+                flex-direction: column-reverse;
+                align-items: flex-start;
+
+                .box_info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 28px;
+                    flex: 1 0 0;
+                    align-self: stretch;
+                }
+
+                .box_avatar {
+
+                    .up_avatar {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        border-radius: 100px;
+                        background: #EBF5FF;
+                        position: relative;
+
+                        .avatar {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+
+                        .nut_up {
+                            width: 41px;
+                            height: 41px;
+                            max-width: 130px;
+                            max-height: 90px;
+                            position: absolute;
+                            right: 0px;
+                            bottom: 0px;
+                        }
+                    }
+
+                    .box_img_ava {
+                        width: 180px;
+                        height: 180px;
+                    }
+                }
+            }
+        }
+
+        .confirm_update {
+            width: 133px;
+            height: 39px;
+            padding: 10px;
+            gap: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .reg_left_50 {
+        width: 49%;
+        margin-right: 0%;
+    }
+
+    .reg_right_50 {
+        width: 49%;
+    }
+}
+
+@media (max-width: 415px) {
+    .container {
+        gap: 37px;
+
+        .box_content {
+            width: 382px;
+            gap: 28px;
+
+            .title_info {
+                width: unset;
+            }
+
+            .box_info_account {
+                display: flex;
+                gap: 24px;
+                align-self: stretch;
+                flex-direction: column-reverse;
+                align-items: flex-start;
+
+                .box_info {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 28px;
+                    flex: 1 0 0;
+                    align-self: stretch;
+                }
+
+                .box_avatar {
+
+                    .up_avatar {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        border-radius: 100px;
+                        background: #EBF5FF;
+                        position: relative;
+
+                        .avatar {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+
+                        .nut_up {
+                            width: 41px;
+                            height: 41px;
+                            max-width: 130px;
+                            max-height: 90px;
+                            position: absolute;
+                            right: 0px;
+                            bottom: 0px;
+                        }
+                    }
+
+                    .box_img_ava {
+                        width: 180px;
+                        height: 180px;
+                    }
+                }
+            }
+        }
+
+        .confirm_update {
+            width: 133px;
+            height: 39px;
+            padding: 10px;
+            gap: 10px;
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+
+        .box_content {
+            width: 100%;
+            padding: 0 20px;
+
+
+        }
+    }
+}

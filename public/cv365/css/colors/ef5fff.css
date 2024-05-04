@@ -1,0 +1,22 @@
+#info-cv {
+  background-image: url(hd2.png);
+  background-repeat: no-repeat;
+}
+
+#content-cv {
+  background-image: url(body2.jpg);
+  background-repeat: no-repeat;
+}
+
+#content-cv .title p {
+  color: #ef5fff;
+}
+
+#content-cv ul li {
+  background-color: #ef5fff;
+}
+
+#content-cv .content::before,
+#content-cv .content::after {
+  background-color: #ef5fff;
+}

@@ -1,0 +1,125 @@
+.modal_upload {
+    .upload_cv {
+        text-align: center;
+        padding: 49px 0 49px;
+        background: #f7f9fb;
+        border: 1px solid #efefef;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-family: Roboto-Regular, sans-serif;
+
+        .drag_drop_container {
+
+            .file_icon {
+                -o-object-fit: cover !important;
+                object-fit: cover !important;
+                -o-object-position: center center !important;
+                object-position: center center !important;
+                width: 150px;
+                margin: auto;
+                cursor: pointer;
+            }
+
+            .cv_title {
+                color: #2767a5;
+                margin-top: 20px;
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            .cv_note {
+                color: red;
+                font-size: 15px;
+                margin: 8px 0 0px;
+                float: left;
+                width: 100%;
+            }
+
+            .italic {
+                font-style: italic;
+                margin-bottom: 26px;
+            }
+        }
+
+        .cv_file_container {
+            .cv_file {
+                width: 200px;
+                margin: auto;
+                background: #fff;
+                -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
+                border-radius: 5px;
+                display: inline-block;
+                position: relative;
+                text-align: center;
+                padding: 28px 10px 20px;
+
+                .delete_file {
+                    position: absolute;
+                    top: 3px;
+                    border: 1px solid #2767a5;
+                    border-radius: 50%;
+                    width: 15px;
+                    height: 15px;
+                    right: 3px;
+                    font-size: 15px;
+                    line-height: 11px;
+                    cursor: pointer;
+                    color: #2767a5;
+                }
+
+                .file_icon_upload {
+                    -o-object-fit: cover !important;
+                    object-fit: cover !important;
+                    -o-object-position: center center !important;
+                    object-position: center center !important;
+                    width: 150px;
+                    margin: auto;
+                }
+
+                .cv_name {
+                    margin-top: 14px;
+                    width: 100%;
+                    white-space: nowrap;
+                    -o-text-overflow: ellipsis;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    color: #2767a5;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    .btns {
+        margin-top: 20px;
+        // display: flex;
+        // justify-content: center;
+        text-align: center;
+
+        button {
+            border: none;
+            background-color: white;
+        }
+
+        .btn_delete {
+            background-color: #3582cd;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+        
+        .btn_cancel {
+            // margin-right: 20px;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            border: 1px solid #3582cd;
+        }
+    }
+}

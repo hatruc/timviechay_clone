@@ -1,0 +1,127 @@
+.t-xanh {
+    color: #4C5BD7;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    // cursor: pointer;
+    /* 24px */
+}
+
+.filter_box {
+    float: left;
+    font-family: Roboto;
+    margin-right: 20px;
+
+    select {
+        height: 41px;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 0 15px;
+        color: #474747;
+        font-size: 14px;
+        border: none;
+        outline: none;
+        
+    }
+}
+
+.box_excel {
+    .xuat_excel {
+        padding: 11px 13px;
+        background: #FFB229;
+        border: 1px solid #E6E6E6;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-weight: bold;
+        margin-bottom: 20px;
+        display: inline-block;
+
+        img {
+            margin-bottom: -4px;
+            margin-right: 8px;
+        }
+    }
+}
+
+
+.table_container {
+    width: 100%;
+
+    .content {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        text-align: justify;
+        font-weight: normal;
+    }
+
+    .table {
+        width: 100%;
+        padding-top: 20px;
+
+        thead th {
+            background-color: #3582cd;
+            padding: 12px 10px;
+            border: 0.5px solid #d0d0d0;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        tbody td {
+            background-color: #fff;
+            padding: 12px 10px;
+            text-align: center;
+            color: #333;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .table_container {
+        overflow-x: scroll;
+
+        .table {
+            width: 992px;
+        }
+    }
+
+    .table_container::-webkit-scrollbar {
+        height: 8px;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .filter_box {
+        width: 100%;
+
+        select {
+            width: 100%;
+            margin-bottom: 12px;
+        }
+    }
+
+    .box_excel {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+}

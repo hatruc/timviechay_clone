@@ -1,0 +1,261 @@
+.review_container{
+    .content{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .img_cv{
+            width: 65%;
+            image{
+                width: 100%;
+                height: 1159px;
+            }
+        }
+        .right_side{
+            width: 30%;
+            margin-top: 20px;
+            .box_right{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .text{
+                    color: #3582CD;
+                    font-family: Roboto;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: normal;
+                }
+                .language{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    >div:first-child{
+                        color: #333;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    .sl_btn{
+                        width: 100%;
+                        height: 48px;
+                    }
+                }
+                .color{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    >div:first-child{
+                        color: #333;
+                        font-family: Roboto;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+                    >div:nth-child(2){
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        >span:nth-child(2){
+                            width: 30px;
+                            height: 30px;
+                            flex-shrink: 0;
+                            border-radius: 22px;
+                            
+                            background: #D45D79;
+                        }
+                        >span:nth-child(3){
+                            width: 30px;
+                            height: 30px;
+                            flex-shrink: 0;
+                            border-radius: 22px;
+                            background: #F1935C;
+                        }
+                    }
+                }
+                .btn{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    .first_btn{
+                        display: flex;
+                        height: 40px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 15px;
+                        align-self: stretch;
+                        border-radius: 28px;
+                        background: #3582CD;
+                        span{
+                            color: #FFF;
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+                    .second_btn{
+                        display: flex;
+                        height: 40px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 15px;
+                        align-self: stretch;
+                        border-radius: 28px;
+                        border: 1px solid #F8971C;
+                        span{
+                            color: #F8971C;
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media (min-width: 414px) and ( max-width:767.5px) {
+    .review_container{
+        .content{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .img_cv{
+                width: 65%;
+                image{
+                    width: 100%;
+                    height: 1159px;
+                }
+            }
+            .right_side{
+                width: 50%;
+                margin-top: 8px;
+                margin-left: 5px;
+                .box_right{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    .text{
+                        color: #3582CD;
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: normal;
+                    }
+                    .language{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+                        >div:first-child{
+                            color: #333;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                        .sl_btn{
+                            width: 100%;
+                            height: 32px;
+                        }
+                    }
+                    .color{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+                        >div:first-child{
+                            color: #333;
+                            font-family: Roboto;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                        >div:nth-child(2){
+                            display: flex;
+                            flex-direction: row;
+                            gap: 10px;
+                            svg{
+                                width: 15px;
+                                height: 15px;
+                            }
+                            >span:nth-child(2){
+                                width: 15px;
+                                height: 15px;
+                                flex-shrink: 0;
+                                border-radius: 22px;
+                                
+                                background: #D45D79;
+                            }
+                            >span:nth-child(3){
+                                width: 15px;
+                                height: 15px;
+                                flex-shrink: 0;
+                                border-radius: 22px;
+                                background: #F1935C;
+                            }
+                        }
+                    }
+                    .btn{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2px;
+                        .first_btn{
+                            display: flex;
+                            height: 32px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 2px;
+                            align-self: stretch;
+                            border-radius: 28px;
+                            background: #3582CD;
+                            svg{
+                                width: 15px;
+                                height: 15px;
+                            }
+                            span{
+                                text-align: center;
+                                color: #FFF;
+                                font-family: Roboto;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                            }
+                        }
+                        .second_btn{
+                            display: flex;
+                            height: 31px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 15px;
+                            align-self: stretch;
+                            border-radius: 28px;
+                            border: 1px solid #F8971C;
+                            span{
+                                color: #F8971C;
+                                font-family: Roboto;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+    
+            }
+        }
+    }
+}

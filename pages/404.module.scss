@@ -1,0 +1,237 @@
+.container_search {
+    display: flex;
+    padding: 12px 360px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #DDD;
+    background: #FFF;
+
+    .box_search {
+        display: flex;
+        padding: 8px 24px;
+        align-items: center;
+        gap: 16px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 30px;
+        border: 1px solid #DDD;
+        background: #FFF;
+
+        .input_search {
+            display: flex;
+            padding: 10px 0px;
+            align-items: center;
+            gap: 10px;
+            flex: 1 0 0;
+            align-self: stretch;
+            border: none;
+            outline: none;
+            border-right: 1px solid #CCC;
+        }
+    }
+
+    .btn_search {
+        display: flex;
+        padding: 13px 16px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 30px;
+        background: #3582CD;
+        outline: none;
+        border: none;
+        cursor: pointer;
+
+        svg {
+            width: 23px;
+            height: 23px;
+        }
+
+        p {
+            color: #FFF;
+            text-align: justify;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 135%;
+            /* 21.6px */
+        }
+    }
+}
+
+.box_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 60px;
+    background: #F4F9FF;
+
+    .title {
+        color: #000;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .description {
+        max-width: 563px;
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+
+        /* 162.5% */
+        .num {
+            color: #000;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+        }
+    }
+
+    .box_img {
+        width: 375px;
+        height: 373px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container_search {
+        padding: 12px 10px;
+
+        .box_search {
+
+            // .select_city {
+            //     display: none;
+            // }
+
+            .input_search {
+                display: flex;
+                padding: 8px 24px;
+                align-items: center;
+                gap: 16px;
+                flex-shrink: 0;
+                align-self: stretch;
+                border: none
+            }
+
+            .icon_del {
+                display: none;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container_search {
+        padding: 12px 8px;
+
+        .box_search {
+            width: 254px;
+            height: 42px;
+
+            .input_search {
+                display: flex;
+                padding: 8px 24px;
+                align-items: center;
+                gap: 16px;
+                flex-shrink: 0;
+                align-self: stretch;
+                border: none
+            }
+
+            .icon_del {
+                display: none;
+            }
+        }
+
+        .btn_search {
+            width: 132px;
+            height: 42px;
+
+            p {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 21.6px;
+            }
+        }
+    }
+
+    .box_content {
+
+        .title {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.09px;
+        }
+
+        .description {
+            // width: 328px;
+        }
+
+    }
+}
+
+@media (max-width: 414px) {
+
+    .container_search {
+        padding: 12px 8px;
+
+        .box_search {
+            width: 232px;
+            height: 42px;
+
+            .input_search {
+                display: flex;
+                padding: 8px 24px;
+                align-items: center;
+                gap: 16px;
+                flex-shrink: 0;
+                align-self: stretch;
+                border: none
+            }
+
+            .icon_del {
+                display: none;
+            }
+        }
+
+        .btn_search {
+            width: 132px;
+            height: 42px;
+            padding: 12px;
+
+            p {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 21.6px;
+            }
+        }
+    }
+
+    .box_content {
+
+        .title {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.09px;
+        }
+
+        .description {
+            // width: 328px;
+        }
+
+    }
+}

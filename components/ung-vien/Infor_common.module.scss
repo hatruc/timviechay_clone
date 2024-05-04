@@ -1,0 +1,143 @@
+.list_comp_name {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    border-bottom: 1px solid #E3E3E3;
+    margin: 0 0 16px 0;
+
+    .item_comp_name {
+        display: flex;
+        height: 42px;
+        padding: 10px 20px;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+
+        .name {
+            color: #474747;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+    .active {
+        border-bottom: 3px solid #3582CD;
+    }
+}
+
+.select_comp_name {
+    display: none;
+}
+
+.CompCVXinViec {
+    width: 776px;
+    // height: 1042px;
+    box-shadow: 0px 2px 4px 0px rgba(53, 130, 205, 0.29) inset;
+    border: 1px solid transparent;
+    /* Make sure to set border to transparent */
+    border-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    /* Adjust the opacity and direction as needed */
+    border-image-slice: 1;
+    /* This ensures the gradient fills the entire border */
+    // overflow: scroll;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    iframe {
+        height: 100%;
+        width: 100%;
+        min-height: 1042px;
+    }
+}
+
+.CompDonXinViec {
+    width: 776px;
+    height: 1107px;
+    box-shadow: 0px 2px 4px 0px rgba(53, 130, 205, 0.29) inset;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.CompThuXinViec {
+    width: 776px;
+    height: 1071px;
+    box-shadow: 0px 2px 4px 0px rgba(53, 130, 205, 0.29) inset;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.CompVideo {
+    width: 776px;
+    // height: 437px;
+}
+
+@media (max-width: 1365px) {
+    .CompCVXinViec {
+        width: 608px;
+        // height: 816px;
+
+        iframe {
+            min-height: 816px;
+        }
+    }
+
+    .CompDonXinViec {
+        width: 608px;
+        height: 816px;
+    }
+
+    .CompThuXinViec {
+        width: 608px;
+        height: 816px;
+    }
+
+    .CompVideo {
+        width: 608px;
+    }
+}
+
+@media (max-width: 768px) {
+    .select_comp_name {
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .list_comp_name {
+        display: none;
+    }
+
+    .CompCVXinViec {
+        width: 350px;
+        // height: 470px;
+        iframe {
+            min-height: 470px;
+        }
+    }
+
+    .CompDonXinViec {
+        width: 350px;
+        height: 470px;
+    }
+
+    .CompThuXinViec {
+        width: 350px;
+        height: 470px;
+    }
+
+    .CompVideo {
+        width: 350px;
+    }
+}

@@ -1,0 +1,61 @@
+#m_pagetaocv .container_content_taocv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+#m_pagetaocv .box_content_taocv {
+  padding: 0;
+  overflow: hidden;
+}
+
+#cv-content p.h3 {
+  color: #000;
+}
+
+.cvo-block:hover,
+.ctbx:hover {
+  box-shadow: none;
+}
+
+[cv-form-field]:hover,
+[cvo-form-field]:hover {
+  outline: none;
+}
+
+#page-cv {
+  width: 100%;
+  max-width: 790px !important;
+  float: none;
+}
+
+.cv_page {
+  padding: 0;
+}
+
+/* #form-cv, .cv_page {
+  float: none;
+} */
+
+#cv-title {
+  display: none;
+}
+
+#cv-content .exp-date,
+#exp1 .exp-content {
+  display: inline-block;
+}
+
+.err_cv_content {
+  outline: none;
+}
+
+.cvo-block:hover .blockControls,
+.ctbx:hover .fieldgroup_controls {
+  display: none;
+}
+
+#form-cv {
+  margin-bottom: 36px;
+}

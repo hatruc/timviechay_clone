@@ -1,0 +1,95 @@
+.heaeder_manage {
+    display: flex;
+    background: #FFF;
+    padding: 12px 20px;
+    justify-content: space-between;
+
+    .heaeder_left {
+        display: flex;
+        padding: 12px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 40px;
+        background: #E4EFF8;
+
+        p {
+            color: #3582CD;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        span {
+            color: #FF0C0C;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+
+    .heaeder_right {
+        display: flex;
+        width: 677.958px;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+
+        a {
+            height: 22px;
+            flex-shrink: 0;
+            color: #333;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .notif {
+            width: 26.25px;
+            height: 30.625px;
+            flex-shrink: 0;
+            fill: #333;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .logout {
+            display: flex;
+            padding: 8px 12px;
+            align-items: center;
+            gap: 16px;
+            border-radius: 8px;
+            background: #3582CD;
+            border: none;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .heaeder_manage {
+        padding: 12px 80px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .heaeder_manage {
+        display: none;
+    }
+}

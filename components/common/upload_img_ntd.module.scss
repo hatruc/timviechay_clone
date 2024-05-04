@@ -1,0 +1,66 @@
+.form_reg {
+    width: 100%;
+    float: left;
+    margin-bottom: 16px;
+    position: relative;
+
+    .form_title {
+        color: #333;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.list_img {
+    display: flex;
+    width: 100%;
+
+    .list_img_upload {
+        margin-right: 12px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .box_item_img {
+            width: 178px;
+            height: 109px;
+            margin: 4px;
+            position: relative;
+            border: 1px solid #ebeaea;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+
+            .box_del {
+                position: absolute;
+                display: inline-flex;
+                padding: 4px;
+                align-items: flex-start;
+                gap: 10px;
+                border-radius: 40px;
+                background: #D4E3FF;
+                right: 4px;
+                top: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .box_img {
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        svg {
+            padding: 38px;
+            border-radius: 4px;
+            border: 1px solid #C4C4C4;
+            background: #F7F7F7;
+        }
+    }
+
+}

@@ -1,0 +1,851 @@
+.banner {
+  background-image: url("/images/cv/mau-cv/banner_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 212px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 800;
+  }
+}
+.container {
+  background-color: #f0faff;
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0faff;
+    padding-top: 12px;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+    .list_breadcrumb {
+      display: flex;
+      gap: 4px;
+      .breadcrumb {
+        display: flex;
+        gap: 4px;
+        span {
+          font-size: 14px;
+          line-height: 1.5;
+          color: #3582cd;
+        }
+        .next {
+          color: #000;
+        }
+      }
+    }
+    .select {
+      height: 48px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      .language,
+      .job {
+        height: 100%;
+        width: 220px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background-color: white;
+        outline: none;
+        font-size: 16px;
+        color: #666;
+        .img {
+          width: 24px;
+          height: 24px;
+        }
+        .desc {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 10px;
+        }
+        .choice {
+          font-size: 16px;
+          height: 42px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  // CSS thanh toolbar
+  .toolbar {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    .toolbar_item_1 {
+      margin-top: 10px;
+      background-color: white;
+      height: 76px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .toolbar_lang {
+        .lang_options {
+          height: 76px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 6px;
+          padding: 0 10px;
+          border-right: 1px solid #eee;
+          border-left: 1px solid #eee;
+          margin-right: 0px;
+          align-items: center;
+          .title {
+            font-size: 18px;
+          }
+          .options {
+            margin-top: 4px;
+            display: flex;
+            gap: 8px;
+            .language {
+              position: relative;
+              width: 22px;
+              height: 22px;
+              cursor: pointer;
+              .selected {
+                height: 6px;
+                width: 6px;
+                background-color: #1fbc89;
+                border-radius: 50%;
+                position: absolute;
+                bottom: -3px;
+                right: -3px;
+                border: 2px solid #fff;
+              }
+              .hidden {
+                display: none;
+              }
+            }
+            .img {
+              height: 22px;
+              width: 22px;
+              border: 1px solid #eee;
+              border-radius: 3px;
+            }
+          }
+        }
+      }
+      .toolbar_color {
+        .color_options {
+          height: 76px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 8px;
+          padding: 0 10px;
+          border-right: 1px solid #eee;
+          margin-right: 0px;
+          align-items: center;
+          .title {
+            font-size: 18px;
+          }
+          .options {
+            .color {
+              height: 22px;
+              width: 22px;
+              display: inline-block;
+              border-radius: 50%;
+              margin: 0 3px;
+              cursor: pointer;
+              border: 1px solid transparent;
+              text-align: center;
+              vertical-align: middle;
+              .check {
+                height: 22px;
+                color: white;
+              }
+              .selected {
+                display: flex;
+                justify-content: center;
+              }
+              .hidden {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      .toolbar_font {
+        .font_options {
+          height: 76px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 4px;
+          padding: 0 10px;
+          border-right: 1px solid #eee;
+          margin-right: 0px;
+          align-items: center;
+          .title {
+            font-size: 18px;
+          }
+          .font {
+            width: 115px;
+            background: none;
+            border: 1px solid #ddd;
+            color: #999;
+            margin-top: 2px;
+            padding: 4px;
+            outline: none;
+          }
+        }
+      }
+      .toolbar_fontSize {
+        .fontSize_options {
+          height: 76px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 4px;
+          padding: 0 10px;
+          border-right: 1px solid #eee;
+          margin-right: 0px;
+          align-items: center;
+          .title {
+            font-size: 18px;
+          }
+          .options {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            .fontSize {
+              width: 28px;
+              height: 28px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+
+              .selected {
+                width: 28px;
+                height: 28px;
+                background-color: #92c8f9;
+                color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+            :hover {
+              background-color: #92c8f9;
+              color: white;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+      .toolbar_lineHeight {
+        .lineHeight_options {
+          height: 76px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 4px;
+          padding: 0 10px;
+          border-right: 1px solid #eee;
+          margin-right: 0px;
+          align-items: center;
+          .title {
+            font-size: 18px;
+          }
+          .options {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            .lineHeight {
+              width: 28px;
+              height: 28px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+
+              .selected {
+                width: 28px;
+                height: 28px;
+                background-color: #92c8f9;
+                color: white;
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+            :hover {
+              background-color: #92c8f9;
+              color: white;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+      .toolbar_addItem {
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        padding: 0 10px;
+        border-right: 1px solid #eee;
+        margin-right: 0px;
+        align-items: center;
+        .title {
+          font-size: 18px;
+        }
+        .addItem {
+          cursor: pointer;
+          width: 28px;
+          height: 28px;
+        }
+      }
+      .toolbar_preview {
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        padding: 0 10px;
+        border-right: 1px solid #eee;
+        margin-right: 0px;
+        align-items: center;
+        .title {
+          font-size: 18px;
+        }
+        .preview {
+          cursor: pointer;
+          width: 28px;
+          height: 28px;
+        }
+      }
+      .toolbar_save {
+        height: 76px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4px;
+        padding: 0 10px;
+        border-right: 1px solid #eee;
+        margin-right: 0px;
+        align-items: center;
+        .title {
+          font-size: 18px;
+        }
+        .save {
+          cursor: pointer;
+          width: 28px;
+          height: 28px;
+        }
+      }
+    }
+    .toolbar_item_2 {
+      background-color: white;
+      margin-left: 138px;
+      width: 790px;
+      height: 56px;
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      align-items: center;
+      .item_group {
+        height: 36px;
+        align-items: center;
+        display: flex;
+        .item {
+          width: 32px;
+          height: 32px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #dcdcdc;
+          cursor: pointer;
+          .font_setting,
+          .paragraph_setting,
+          .setting {
+            color: #777777;
+            font-size: 20px;
+          }
+          .align_justify {
+            height: 30px;
+            width: 26px;
+          }
+          .eraser {
+            height: 20px;
+          }
+        }
+        .active {
+          background-color: #92c8f9;
+          .selected {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  // CSS giao diện CV
+  #page_cv {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    .page_cv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      .cv_title {
+        width: 790px;
+        background: #fff;
+        margin-top: 20px;
+        padding: 8px 0;
+        border: 1px dashed #c2d7ff;
+        outline: unset;
+        text-align: center;
+        font-size: 20px;
+      }
+      .du_lich_container {
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
+        :focus {
+          outline: #77a5cc dashed 1pt;
+        }
+        .container {
+          width: 790px;
+          height: auto;
+          flex-shrink: 0;
+          background: #fff;
+          .info {
+            background-image: url("/images/cv/mau-cv/hd3.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p {
+              font-family: "Roboto";
+              font-size: 16px;
+            }
+            .left {
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              padding: 0 20px;
+
+              .title {
+                border-radius: 100px;
+                background-color: #ffb20c;
+                padding: 10px;
+                width: 95%;
+                p {
+                  font-family: "Roboto", sans-serif;
+                  font-size: 20px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  max-width: 350px;
+                  min-width: 340px;
+                }
+                .name {
+                  p {
+                    font-size: 32px;
+                    font-weight: 600;
+                    color: #fff;
+                    min-width: 270px;
+                  }
+                }
+                .job {
+                  padding: 10px 5px;
+                  background-color: #f0f019;
+                  p {
+                    font-size: 24px;
+                    font-weight: 500;
+                  }
+                }
+              }
+
+              .gender,
+              .birth,
+              .phone,
+              .email,
+              .address {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                p {
+                  width: 100%;
+                  color: #000;
+                }
+              }
+            }
+            .right {
+              position: relative;
+              width: 46%;
+              height: 452px;
+              .avatar {
+                position: relative;
+                top: 17px;
+                left: 51px;
+                width: 213px;
+                height: 213px;
+                border-radius: 999px;
+                border: 3px solid #fff;
+                overflow: hidden;
+                > span:first-child {
+                  width: 100%;
+                  height: 100%;
+                  > div:first-child {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+              }
+              .title {
+                width: 89%;
+                padding-top: 92px;
+                position: relative;
+                top: 15px;
+                p {
+                  margin-top: 0;
+                  margin-bottom: 6px;
+                }
+                .name {
+                  font-size: 28px;
+                  text-transform: uppercase;
+                  text-align: center;
+                  margin-bottom: 0px;
+                  margin-left: 0px;
+                  color: #fff;
+                  margin-top: 0;
+                  font-weight: bold;
+                }
+                .job {
+                  font-size: 16px;
+                  margin-top: 0;
+                  line-height: 1.5;
+                  font-weight: unset;
+                  text-align: center;
+                  color: #fff;
+                }
+                span:focus-visible {
+                  outline: none;
+                }
+                span:hover {
+                  outline: #77a5cc dashed 1pt;
+                }
+              }
+            }
+          }
+          .box_content {
+            background-image: url("/images/cv/mau-cv/bd3.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            gap: 40px;
+            justify-content: space-around;
+            padding: 0 20px;
+            .title {
+              margin-bottom: 10px;
+              border-radius: 100px;
+              background-color: #ffb20c;
+              padding: 10px;
+              width: 95%;
+              p {
+                font-family: "Roboto", sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                max-width: 350px;
+                min-width: 340px;
+              }
+            }
+            .left {
+              width: 50%;
+              .left_box {
+                .goal,
+                .degree,
+                .reward,
+                .hobby,
+                .reference {
+                  position: relative;
+                  .menu {
+                    position: absolute;
+                    right: 0;
+                    top: -35px;
+                    display: none;
+                    flex-direction: row;
+                    gap: 10px;
+                    background-color: #bfbaba;
+                    padding: 5px 5px 0px 5px;
+                    .add {
+                      cursor: pointer;
+                      padding: 4px 10px;
+                      background-color: rgb(0 255 72);
+                      border-radius: 10px;
+                      color: #fff;
+                      font-weight: 500;
+                      font-size: 16px;
+                    }
+                    .hidden {
+                      cursor: pointer;
+                      padding: 4px 10px;
+                      background-color: rgb(223, 71, 71);
+                      border-radius: 10px;
+                      color: #fff;
+                      font-weight: 500;
+                      font-size: 16px;
+                    }
+                  }
+                  .menu:hover {
+                    display: flex;
+                  }
+                }
+                .goal:hover,
+                .degree:hover,
+                .reward:hover,
+                .hobby:hover,
+                .reference:hover {
+                  outline: 1px solid #5f5f5f;
+                  > .menu {
+                    display: flex;
+                  }
+                }
+                ul {
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+                  display: flex;
+                  gap: 16px;
+                  li {
+                    width: 50px;
+                    height: 12px;
+                    background: #ed7d31;
+                    border-radius: 12px;
+                  }
+                }
+                > * {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  margin-bottom: 20px;
+                  .content {
+                    width: 95%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    p {
+                      font-family: "Roboto", sans-serif;
+                      font-size: 14px;
+                      line-height: 1.5;
+                      font-weight: 400;
+                      color: #fff;
+                      max-width: 350px;
+                      min-width: 340px;
+                    }
+                    p:hover {
+                      outline: #77a5cc dashed 1pt;
+                    }
+                    .item_title {
+                      margin-bottom: 10px;
+                      p {
+                        font-size: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .right {
+              width: 50%;
+              .right_box {
+                .academic_level,
+                .experience,
+                .activity,
+                .project,
+                .more {
+                  position: relative;
+                  .menu {
+                    position: absolute;
+                    right: 0;
+                    top: -35px;
+                    display: none;
+                    flex-direction: row;
+                    gap: 10px;
+                    background-color: #bfbaba;
+                    padding: 5px 5px 0px 5px;
+                    // border-radius;
+                    .add {
+                      padding: 4px 10px;
+                      background-color: rgb(0 255 72);
+                      border-radius: 10px;
+                      color: #fff;
+                      font-weight: 500;
+                      font-size: 16px;
+                      cursor: pointer;
+                    }
+                    .hidden {
+                      padding: 4px 10px;
+                      background-color: rgb(223, 71, 71);
+                      border-radius: 10px;
+                      color: #fff;
+                      font-weight: 500;
+                      font-size: 16px;
+                      cursor: pointer;
+                    }
+                  }
+                  .menu:hover {
+                    display: flex;
+                  }
+                }
+                .academic_level:hover,
+                .experience:hover,
+                .activity:hover,
+                .project:hover,
+                .more:hover {
+                  outline: 1px solid #5f5f5f;
+                  > .menu {
+                    display: flex;
+                  }
+                }
+                ul {
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+                  display: flex;
+                  gap: 16px;
+                  li {
+                    width: 50px;
+                    height: 12px;
+                    background: #ed7d31;
+                    border-radius: 12px;
+                  }
+                }
+                > * {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  margin-bottom: 20px;
+                  .content {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    :nth-child(1) {
+                      font-weight: 700;
+                    }
+                    p {
+                      font-family: "Roboto", sans-serif;
+                      font-size: 14px;
+                      font-weight: 400;
+                      color: #000;
+                    }
+                    p:hover {
+                      outline: #77a5cc dashed 1pt;
+                    }
+                    .item_title {
+                      margin-bottom: 10px;
+                      p {
+                        font-size: 20px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .same_job_cv {
+      background-color: #fff;
+      margin-top: 80px;
+      padding: 12px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
+      .btn_box {
+        border-radius: 4px;
+        overflow: hidden;
+        .btn {
+          width: 35px;
+          height: 52px;
+          background-color: #ccc;
+          color: #fff;
+          font-size: 36px;
+        }
+      }
+      .same_cv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 272px;
+        .title {
+          font-size: 28px;
+          line-height: 32px;
+          color: #3582cd;
+        }
+        .img {
+          width: 100%;
+          height: 364px;
+          position: relative;
+          .hover_img {
+            display: none;
+          }
+          &:hover .hover_img {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+            justify-content: center;
+            background: rgba(67, 67, 67, 0.6);
+            button {
+              width: 150px;
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+              background: rgba(67, 67, 67, 0.6);
+              color: #fff;
+              padding: 10px 0px;
+              border-radius: 20px;
+              height: auto;
+              border: solid #fff;
+            }
+            > button:nth-child(2) {
+              background-color: #ff9254;
+            }
+            .f_btn:hover {
+              color: #4c5bd4;
+              background-color: rgb(255, 255, 255);
+            }
+          }
+        }
+        .txt {
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

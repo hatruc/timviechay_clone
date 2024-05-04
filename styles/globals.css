@@ -1,0 +1,530 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html, body {
+    overflow-x: hidden;
+} */
+
+p {
+    color: #474747;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box_img {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal_like {
+    width: 550px;
+
+    .ant-modal-content {
+        padding: 15px;
+    }
+
+    .ant-modal-close {
+        top: 15px;
+
+        .ant-modal-close-x {
+            display: block;
+        }
+    }
+
+    @media (min-width: 414px) and (max-width: 767px) {
+        width: 386px;
+    }
+}
+
+.modal_sign_in {
+    .ant-modal-content {
+        padding: 20px 24px;
+        width: 496px !important;
+        box-sizing: border-box !important;
+    }
+
+    .ant-modal-close {
+        top: 15px;
+
+        .ant-modal-close-x {
+            display: block;
+        }
+    }
+
+    @media (min-width: 350px) and (max-width: 767px) {
+        .ant-modal-content {
+            padding: 45px 24px 20px 24px;
+            width: 100% !important;
+
+            :where(.css-dev-only-do-not-override-2q8sxy).ant-form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px !important;
+            }
+
+            :where(.css-2q8sxy).ant-form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px !important;
+            }
+        }
+        
+    }
+}
+
+.star_chi_tiet_tin {
+    .ant-rate {
+        color: #ffa317;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .ant-rate {
+            font-size: 19px;
+            color: #ffa317;
+        }
+    }
+}
+
+.star_chi_tiet_cong_ty {
+    .ant-rate {
+        font-size: 16px;
+    }
+}
+
+.star_chi_tiet_cong_ty_2 {
+    .ant-rate {
+        color: #ffa317;
+        font-size: 24px;
+    }
+}
+
+.upload_file {
+    .ant-btn-default {
+        background-color: transparent;
+        box-shadow: none;
+
+        > span:nth-child(2) {
+            color: #3582cd;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .ant-upload-list-item-container {
+            width: 210px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.progress_fit {
+    .ant-progress-outer {
+        height: 6px !important;
+    }
+
+    .ant-progress-bg {
+        height: 6px !important;
+        background-color: #fff !important;
+    }
+}
+
+.select_2 {
+    .select2-selection--single {
+        border: none !important;
+    }
+
+    .select2-selection__rendered {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+
+        color: #666666;
+    }
+}
+
+.select_ds_tin_tuyen_dung {
+    .select2-container--default {
+        width: 166px !important;
+    }
+}
+
+.select_search_1 {
+    flex: 1;
+
+    .ant-select-selector {
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+    .ant-select-selection-search {
+        color: #fff;
+    }
+
+    .ant-select-selection-item {
+        color: #fff;
+
+        text-align: justify;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135%;
+    }
+
+    .ant-select-arrow {
+        color: #fff;
+    }
+}
+
+.select_list_news {
+    .ant-select-selector {
+        border: none !important;
+        outline: none;
+    }
+}
+
+.select_search_AI {
+    flex: 1;
+
+    .ant-select-selector {
+        background-color: transparent !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+    .ant-select-selection-item {
+        color: var(--474747, #474747);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.carousel_ung_vien {
+    .Slider_slider__UOYFj {
+        display: flex !important;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.select_hs_uv {
+    .ant-select-selection-item {
+        color: #757587;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .ant-select-selector {
+        padding: 0px !important;
+    }
+}
+
+.error_message {
+    color: #fb1f1f;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.select_hs_uv_cvmm {
+    .ant-select-selection-placeholder {
+        color: #848484;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -10px;
+    }
+    .ant-select-selector {
+        padding: 0px !important;
+    }
+}
+
+.carousel_ds_ung_vien {
+    .slick-track {
+        display: flex !important;
+        gap: 12px !important;
+    }
+}
+
+:where(.css-dev-only-do-not-override-2q8sxy).ant-carousel
+    .slick-list
+    .slick-slide
+    > div
+    > div {
+    display: flex !important;
+}
+
+:where(.css-2q8sxy).ant-carousel
+    .slick-list
+    .slick-slide
+    > div
+    > div {
+    display: flex !important;
+}
+
+:where(.css-2q8sxy).ant-carousel .slick-list .slick-slide > div > div {
+    display: flex !important;
+}
+
+.vote_com {
+    display: flex !important;
+}
+/* change color cap nhat nha tuyen dung spin */
+.update_info_confirm_update__w8tru .ant-spin-dot-item {
+    background: #fff;
+}
+
+/* color change of uv bo ho so spin*/
+.temp_comp_content__XzzBc .ant-spin-dot-item {
+    background-color: white !important;
+}
+
+
+
+.ant-form-item {
+    margin-bottom: 0px;
+}
+/* css form dang tin */
+#form-contact
+    :where(.css-dev-only-do-not-override-2q8sxy).ant-space-gap-row-small
+    .ant-space-item {
+    width: 50%;
+}
+
+#form-contact
+    :where(.css-2q8sxy).ant-space-gap-row-small
+    .ant-space-item {
+    width: 50%;
+}
+
+#quanlity {
+    padding-left: 10px;
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+    #form-contact
+        :where(.css-dev-only-do-not-override-2q8sxy).ant-space-gap-row-small
+        .ant-space-item {
+        width: 100%;
+    }
+
+    #form-contact
+        :where(.css-2q8sxy).ant-space-gap-row-small
+        .ant-space-item {
+        width: 100%;
+    }
+}
+
+/* admin */
+#admin-content {
+    overflow: hidden;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs {
+    overflow-y: scroll;
+    width: 100%;
+  height: 100%;
+}
+
+#admin-content :where(.css-2q8sxy).ant-tabs {
+    overflow-y: scroll;
+    width: 100%;
+  height: 100%;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs .ant-tabs-content {
+    height: 100%;
+}
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs .ant-tabs-content-holder {
+    overflow-x: scroll;
+}
+
+#admin-content :where(.css-2q8sxy).ant-tabs .ant-tabs-content {
+    height: 100%;
+}
+#admin-content :where(.css-2q8sxy).ant-tabs .ant-tabs-content-holder {
+    overflow-x: scroll;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs >.ant-tabs-nav .ant-tabs-nav-list, :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs >div>.ant-tabs-nav .ant-tabs-nav-list {
+    flex-wrap: wrap !important;
+}
+
+#admin-content :where(.css-2q8sxy).ant-tabs >.ant-tabs-nav .ant-tabs-nav-list, :where(.css-2q8sxy).ant-tabs >div>.ant-tabs-nav .ant-tabs-nav-list {
+    flex-wrap: wrap !important;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs .ant-tabs-tab-btn {
+    font-weight: 650;
+}
+
+#admin-content :where(.css-2q8sxy).ant-tabs .ant-tabs-tab-btn {
+    font-weight: 650;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #e17009
+}
+
+#admin-content :where(.css-2q8sxy).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #e17009
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs >.ant-tabs-nav, :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs >div>.ant-tabs-nav {
+    background: #9dc5e3;
+}
+
+#admin-content :where(.css-2q8sxy).ant-tabs >.ant-tabs-nav, :where(.css-2q8sxy).ant-tabs >div>.ant-tabs-nav {
+    background: #9dc5e3;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-form {
+    margin: 0 20px;
+}
+
+#admin-content :where(.css-2q8sxy).ant-form {
+    margin: 0 20px;
+}
+
+#admin-content .wrapper_sidebar {
+    overflow-x: hidden !important;
+}
+
+#admin-content  :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs {
+    overflow: hidden !important;
+}
+
+#admin-content  :where(.css-2q8sxy).ant-tabs {
+    overflow: hidden !important;
+}
+
+#admin-content  :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab:hover {
+    background: #79c5eb;
+    color: #474747;
+}
+
+#admin-content  :where(.css-2q8sxy).ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab+.ant-tabs-tab:hover {
+    background: #79c5eb;
+    color: #474747;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active:hover {
+    background: #FFF !important;
+}
+
+
+#admin-content .ck.ck-editor__main> {
+    width: auto;
+    overflow: hidden;
+}
+#admin-content :where(.css-2q8sxy).ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active:hover {
+    background: #FFF !important;
+
+}
+
+
+#admin-content .ck.ck-editor__main>.ck-editor__editable  {
+    min-height: 200px;
+    height: 500px !important;
+    overflow-y: scroll !important;
+    /* height: 100vh; */
+    padding-left: 20px;
+    width: 100% !important;
+    flex-wrap: wrap;
+    /* z-index: 1000; */
+}
+
+#admin-header :where(.css-dev-only-do-not-override-2q8sxy).ant-modal .ant-modal-footer {
+    visibility: hidden !important;
+       height: 10px;
+}
+
+#admin-header :where(.css-2q8sxy).ant-modal .ant-modal-footer {
+    visibility: hidden !important;
+    height: 10px;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th {
+    text-align: center;
+    white-space: nowrap;
+}
+
+#admin-content :where(.css-2q8sxy).ant-table-wrapper .ant-table.ant-table-bordered >.ant-table-container >.ant-table-content >table >thead>tr>th {
+    text-align: center;
+    white-space: nowrap;
+}
+
+#admin-content :where(.css-dev-only-do-not-override-2q8sxy)[class^="ant-table"] [class^="ant-table"] {
+    overflow: visible !important;
+}
+
+#admin-content :where(.css-2q8sxy)[class^="ant-table"] [class^="ant-table"] {
+    overflow: visible !important;
+}
+
+#ntd-form .style_form__N3o7C {
+    width: 80%;
+}
+
+#ntd-add .style_form__N3o7C {
+    width: 100%;
+}
+
+
+.ck.ck-editor__editable_inline>:first-child {
+    width: calc(100% - 20px) !important;
+    white-space: wrap !important;
+    display: block !important;
+    height: fit-content;
+}
+
+.style_form__N3o7C .style_input__1xRXD p
+
+.style_form__N3o7C .style_input__1xRXD p  {
+    width: 100% !important;
+    flex-wrap: wrap !important;
+}
+
+.style_form__N3o7C .style_input__1xRXD p  {
+    width: 100% !important;
+    flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+}
+
+.style_form__N3o7C .style_input__1xRXD p {
+ white-space:  wrap !important;
+}
+
+/* end admin css */

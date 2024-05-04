@@ -1,0 +1,31 @@
+.select-address {
+    height: 41px !important;
+    width: 98% !important;
+    margin-left: 1%;
+}
+
+.select-distric {
+    display: flex;
+    width: 298px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border: none;
+}
+
+.select2-container--default .select2-selection--single {
+    border: none !important;
+    outline: none;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    outline: none !important;
+}
+
+@media (max-width: 1024px) {
+
+    .select-distric,
+    .select2-container {
+        display: none !important;
+    }
+}

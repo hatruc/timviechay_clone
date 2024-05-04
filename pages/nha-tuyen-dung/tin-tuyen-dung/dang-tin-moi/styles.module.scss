@@ -1,0 +1,361 @@
+.container {
+  padding: 0 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  .input_container {
+    display: flex;
+    width: 1200px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 30px 40px 60px 40px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.1);
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      align-self: stretch;
+
+      p {
+        width: 100%;
+        color: #474747;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: left;
+      }
+
+      .note {
+        * {
+          line-height: 150%;
+        }
+      }
+    }
+
+    .box_title {
+      display: flex;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px 10px;
+      align-items: center;
+      gap: 10px;
+      align-self: stretch;
+      border-left: 3px solid #2767a5;
+      background: #fff;
+
+      p {
+        color: #2767a5;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+
+    .job_info_box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box_content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+
+        >* {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+        }
+      }
+    }
+
+    .job_desc_box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box_content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+
+        .description {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+        }
+      }
+    }
+
+    .job_required_box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box_content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+
+        >* {
+          display: flex;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+        }
+      }
+    }
+
+    .benefits {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box_content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+
+        .benefit {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+        }
+      }
+    }
+
+    .form_required {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box_content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+
+        >* {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+        }
+      }
+    }
+
+    .contact_info {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .box_content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        >* {
+          display: flex;
+          width: 100% !important;
+          align-items: flex-start;
+          gap: 8px;
+          align-self: stretch;
+          width: 48%;
+        }
+      }
+    }
+
+    .button_box {
+      display: flex;
+      gap: 24px;
+
+      .cancel_button {
+        display: flex;
+        width: 205px;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 6px;
+        border: 1px solid #3a85d4;
+        text-align: center;
+        color: #3a85d4;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%;
+        /* 20.25px */
+        background: #fff;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .submit_button {
+        display: flex;
+        width: 205px;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+        border-radius: 6px;
+        border: none;
+        background: linear-gradient(90deg,
+            #3a85d4 0.13%,
+            #3e8cd8 13.24%,
+            #4295dc 26.49%,
+            #479fe0 40.07%,
+            #4ba6e3 50.6%,
+            #4ba6e3 60.61%,
+            #4ba6e3 70.63%,
+            #4ba6e3 80.48%,
+            #4ba6e3 91.68%,
+            #4ba6e3 99.87%);
+        text-align: center;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 135%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .container {
+    .input_container {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1365px) {
+  .container {
+    padding: 0 25px;
+
+    .input_container {
+
+      // width: 976px;
+      .title {
+        .note {
+          font-size: 16px;
+        }
+      }
+
+      .contact_info {
+        .box_content {
+          gap: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    .input_container {
+      // width: 732px;
+      padding: 30px 20px 40px 20px;
+
+      .contact_info {
+        .box_content {
+          gap: 24px;
+        }
+      }
+
+      .button_box {
+        >* {
+          width: 165px !important;
+          font-size: 15px;
+          text-wrap: nowrap;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 12px;
+
+    .input_container {
+      // width: 414px;
+      padding: 30px 16px 40px 16px;
+
+      .title {
+        .note {
+          font-size: 15px;
+        }
+      }
+
+      .contact_info {
+        .box_content {
+          gap: 0;
+
+          >* {
+            width: 100%;
+          }
+
+          div {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+
+      .button_box {
+        >* {
+          width: 140px !important;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
